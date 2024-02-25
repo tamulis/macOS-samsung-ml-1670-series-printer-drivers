@@ -9,11 +9,9 @@ Samsung printer drivers for Samsung ML-1670 Series (Tested printer ML-1675).
 
 2. Copy printer driver files.
 
-File: Samsung ML-1670 Series.gz
-Copy to: (Macintosh HD)/Library/Printers/PPDs/Contents/Resources/
+File: `Samsung ML-1670 Series.gz`, Copy to: `(Macintosh HD)/Library/Printers/PPDs/Contents/Resources/`
 
-Whole Folder: Samsung/
-Copy to: (Macintosh HD)/Library/Printers/
+Whole Folder: `Samsung/`, Copy to: `(Macintosh HD)/Library/Printers/`
 
 3. Open System Settings > Printers & Scanners > Click Add Printer, Scanner, or Fax... > Select your printer: "Samsung ML-1670 Series, USB" > Choose Use: Select Software... > Select Samsung ML-1670 Series > OK > Add.
 
