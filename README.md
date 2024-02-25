@@ -9,6 +9,8 @@ Samsung printer drivers for Samsung ML-1670 Series (Tested printer ML-1675).
 
 2. Copy printer driver files.
 
+Files to copy are located in `Printer driver files` folder.
+
 File: `Samsung ML-1670 Series.gz`, Copy to: `(Macintosh HD)/Library/Printers/PPDs/Contents/Resources/`
 
 Whole Folder: `Samsung/`, Copy to: `(Macintosh HD)/Library/Printers/`
