@@ -1,13 +1,13 @@
 DRIVER SETUP GUIDE
 ====
 
-Samsung printer drivers for Samsung ML-1670 Series (Tested printer ML-1675)
+Samsung printer drivers for Samsung ML-1670 Series (Tested printer ML-1675).
 
 ----
 
 1. Connect printer cable.
 
-2. Copy driver files.
+2. Copy printer driver files.
 
 File: Samsung ML-1670 Series.gz
 Copy to: (Macintosh HD)/Library/Printers/PPDs/Contents/Resources/
@@ -26,4 +26,4 @@ NOTE: If you want to restart from start, in Printers & Scanners, on Default prin
 This guide was based on internet resources:
 - Apple Community: samsung ML1670 printer drive - https://discussions.apple.com/thread/254436139
 - Samsung Printer Drivers v2.6 for OS X - https://support.apple.com/kb/dl905?locale=en_US
-- (Not used) Sansung Support - https://support.hp.com/lt-en/drivers/samsung-ml-1670-laser-printer-series/17156953
+- Samsung Support Drivers - https://support.hp.com/lt-en/drivers/samsung-ml-1670-laser-printer-series/17156953
