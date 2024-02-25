@@ -1,0 +1,1770 @@
+*PPD-Adobe: "4.3"
+*% ===============================================
+*% Disclaimer:  The above statement indicates
+*% that this PPD was written using the Adobe PPD
+*% File Format Specification 4.3, but does not
+*% intend to imply approval and acceptance by
+*% Adobe Systems, Inc.
+*% ===============================================
+*%
+*%           CopyRight (c) 2010 by
+*%       Samsung Electronics Co., Ltd.
+*%            All Rights Reserved
+*%
+*%
+*% ===============================================
+*% PPD for Samsung ML-1670 Series CUPS
+*% For Macintosh Only
+*% ===============================================
+*FormatVersion: "4.3"
+*FileVersion: "1.03.02"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PCFileName:  "M1670.PPD"
+*APDialogExtension: "/Library/Printers/Samsung/PDEs/Graphic2.bundle"
+*APDialogExtension: "/Library/Printers/Samsung/PDEs/Printer.bundle"
+*Manufacturer:  "Samsung"
+*Product: "(Samsung ML-1670 Series)"
+*cupsVersion: 1.4
+*cupsManualCopies: True
+*cupsModelNumber: 7
+*cupsFilter:  "application/vnd.cups-raster 0 /Library/Printers/Samsung/Filters/rastertosec"
+*%APPrinterUtilityPath: "/Library/Printers/Samsung/Utilities/SM/SPanel.app"
+
+*ModelName:     "Samsung ML-1670 Series"
+*ShortNickName: "Samsung ML-1670 Series"
+*NickName:      "Samsung ML-1670 Series"
+*PSVersion:	"(3010.000) 550"
+*PSVersion:	"(3010.000) 651"
+*PSVersion:	"(3010.000) 652"
+*PSVersion:	"(3010.000) 653"
+*LanguageLevel: "3"
+*ColorDevice:	True
+*DefaultColorSpace: RGB
+*FileSystem:  False
+*Throughput:  "18"
+*LandscapeOrientation: Plus270
+*VariablePaperSize: False
+*TTRasterizer:  Type42
+
+*APPrinterIconPath: "/Library/Printers/Samsung/Icons/ML-1670.icns"
+*cupsFilter: "application/vnd.cups-command 100 /Library/Printers/Samsung/Filters/commandtosec"
+*SECWarningStatusPath: "/Library/Printers/Samsung/Filters/statusDesc.plist" 
+*SECCommandFileFilterPath: "/Library/Printers/Samsung/Filters/commandtosec"
+*cupsCommands: "ReportLevels"
+*cupsSNMPSupplies: False
+
+
+*eColorSupport: "1"
+*eEmulationMode: "3"
+*eFixedBandWidth: "0"
+*eCommandVersion: "5"
+
+
+*eCMSMode: "1"
+*eCMSLibPath: "/Library/Printers/Samsung/SCMS/"
+*eCMSLibFile: "/Library/Printers/Samsung/SCMS/libscmssc.dylib"
+*eCMSPrefix: "ML-1670"
+*eCMSFEATURES: "id_FineEdge"
+
+*ePJL: "PowerSave, PowerSaveTime, Darkness"
+
+*% =========================================================
+*% Help file
+*% =========================================================
+*AboutHelpPath: "/Library/Printers/Samsung/ML-1670/Help/English/About.html"
+*ko.AboutHelpPath: "/Library/Printers/Samsung/ML-1670/Help/ko/About.html"
+*zh_CN.AboutHelpPath: "/Library/Printers/Samsung/ML-1670/Help/zh_CN/About.html"
+*zh_TW.AboutHelpPath: "/Library/Printers/Samsung/ML-1670/Help/zh_TW/About.html"
+
+*de.AboutHelpPath: "/Library/Printers/Samsung/ML-1670/Help/German/About.html"
+*es.AboutHelpPath: "/Library/Printers/Samsung/ML-1670/Help/Spanish/About.html"
+*fr.AboutHelpPath: "/Library/Printers/Samsung/ML-1670/Help/French/About.html"
+*it.AboutHelpPath: "/Library/Printers/Samsung/ML-1670/Help/Italian/About.html"
+*nl.AboutHelpPath: "/Library/Printers/Samsung/ML-1670/Help/Dutch/About.html"
+*pt.AboutHelpPath: "/Library/Printers/Samsung/ML-1670/Help/pt/About.html"
+
+*OutputHelpPath: "/Library/Printers/Samsung/ML-1670/Help/English/Output.html"
+*ko.OutputHelpPath: "/Library/Printers/Samsung/ML-1670/Help/ko/Output.html"
+*zh_CN.OutputHelpPath: "/Library/Printers/Samsung/ML-1670/Help/zh_CN/Output.html"
+*zh_TW.OutputHelpPath: "/Library/Printers/Samsung/ML-1670/Help/zh_TW/Output.html"
+
+*de.OutputHelpPath: "/Library/Printers/Samsung/ML-1670/Help/German/Output.html"
+*es.OutputHelpPath: "/Library/Printers/Samsung/ML-1670/Help/Spanish/Output.html"
+*fr.OutputHelpPath: "/Library/Printers/Samsung/ML-1670/Help/French/Output.html"
+*it.OutputHelpPath: "/Library/Printers/Samsung/ML-1670/Help/Italian/Output.html"
+*nl.OutputHelpPath: "/Library/Printers/Samsung/ML-1670/Help/Dutch/Output.html"
+*pt.OutputHelpPath: "/Library/Printers/Samsung/ML-1670/Help/pt/Output.html"
+
+*PrinterHelpPath: "/Library/Printers/Samsung/ML-1670/Help/English/Printer.html"
+*GraphicHelpPath: "/Library/Printers/Samsung/ML-1670/Help/English/Graphic.html"
+*ko.GraphicHelpPath: "/Library/Printers/Samsung/ML-1670/Help/ko/Graphic.html"
+*zh_CN.GraphicHelpPath: "/Library/Printers/Samsung/ML-1670/Help/zh_CN/Graphic.html"
+*zh_TW.GraphicHelpPath: "/Library/Printers/Samsung/ML-1670/Help/zh_TW/Graphic.html"
+
+*de.GraphicHelpPath: "/Library/Printers/Samsung/ML-1670/Help/German/Graphic.html"
+*es.GraphicHelpPath: "/Library/Printers/Samsung/ML-1670/Help/Spanish/Graphic.html"
+*fr.GraphicHelpPath: "/Library/Printers/Samsung/ML-1670/Help/French/Graphic.html"
+*it.GraphicHelpPath: "/Library/Printers/Samsung/ML-1670/Help/Italian/Graphic.html"
+*nl.GraphicHelpPath: "/Library/Printers/Samsung/ML-1670/Help/Dutch/Graphic.html"
+*pt.GraphicHelpPath: "/Library/Printers/Samsung/ML-1670/Help/pt/Graphic.html"
+
+
+*% =========================================================
+*% Installable Options
+*% =========================================================  
+*OpenGroup: InstallableOptions/Installed Options
+
+*OpenUI *TonerSaving/Toner Save: PickOne
+*OrderDependency: 5 AnySetup *TonerSaving
+*DefaultTonerSaving: PrinterSetting
+*TonerSaving PrinterSetting/Printer Setting: ""
+*TonerSaving On/On: "%% @PJL SET ECONOMODE = ON"
+*TonerSaving Off/Off: "%% @PJL SET ECONOMODE = OFF"
+*CloseUI: *TonerSaving
+
+
+*%OpenUI *id_SaveMode/Toner Save: PickOne
+*%Defaultid_SaveMode: Off
+*%id_SaveMode On/On: "%% @PJL SET ECONOMODE = ON"
+*%id_SaveMode Off/Off: "%% @PJL SET ECONOMODE = OFF"
+*%CloseUI: *id_SaveMode
+
+
+*CloseGroup: InstallableOptions
+
+*%====================================
+*% Localized string on Printer.plugin
+*%====================================
+*TimeDelay : "Time Delay"
+*ko.TimeDelay : 시간설정
+*zh_CN.TimeDelay : 时间延迟
+*zh_TW.TimeDelay : 時間延遲
+
+*de.TimeDelay : Verzögerungszeit
+*es.TimeDelay : Retraso temporal
+*fr.TimeDelay : Délai mise en veille
+*it.TimeDelay : Attesa
+*nl.TimeDelay : Vertraging
+*pt.TimeDelay : Tempo Diferido
+
+
+*%=========================================================
+*%  Power Save Mode (Printer.plugin)
+*%=========================================================
+*OpenUI *PowerSave/Power Save: PickOne
+*OrderDependency: 80 AnySetup *PowerSave
+*DefaultPowerSave: On
+*PowerSave Off/Off:  	"%% @PJL DEFAULT POWERSAVE = OFF"  
+*PowerSave On/On:	"%% @PJL DEFAULT POWERSAVE = ON"
+*CloseUI: *PowerSave
+
+*OpenUI *PowerSaveTime/Time Delay: PickOne
+*OrderDependency: 80 AnySetup *PowerSaveTime
+*DefaultPowerSaveTime: 5min
+*PowerSaveTime 1min/1 minute:		"%% @PJL DEFAULT POWERSAVETIME = 1"
+*PowerSaveTime 5min/5 minutes:		"%% @PJL DEFAULT POWERSAVETIME = 5"
+*PowerSaveTime 10min/10 minutes:	"%% @PJL DEFAULT POWERSAVETIME = 10" 
+*PowerSaveTime 15min/15 minutes:	"%% @PJL DEFAULT POWERSAVETIME = 15" 
+*PowerSaveTime 20min/20 minutes:	"%% @PJL DEFAULT POWERSAVETIME = 20" 
+*PowerSaveTime 30min/30 minutes:	"%% @PJL DEFAULT POWERSAVETIME = 30" 
+*PowerSaveTime 45min/45 minutes:	"%% @PJL DEFAULT POWERSAVETIME = 45"
+*PowerSaveTime 60min/60 minutes:	"%% @PJL DEFAULT POWERSAVETIME = 60"    
+*PowerSaveTime 120min/120 minutes:	"%% @PJL DEFAULT POWERSAVETIME = 120"    
+*CloseUI: *PowerSaveTime
+
+
+
+*% =========================================================
+*%  Darkness
+*% =========================================================
+*OpenUI *Darkness/Darkness: PickOne
+*OrderDependency: 5 AnySetup *Darkness
+*DefaultDarkness: Normal
+*Darkness Normal/Normal: "%% @PJL SET DENSITY = 3"
+*Darkness Light/Light: "%% @PJL SET DENSITY = 1"
+*Darkness Dark/Dark: "%% @PJL SET DENSITY = 5"
+*CloseUI: *Darkness
+
+
+*% =========================================================
+*% Get Paper Size
+*% =========================================================
+*612792: "00"
+*6121008: "01"
+*612936: "24"
+*522756: "03"
+*595842: "02"
+*420595: "16"
+*516729: "11"
+*297420: "17"
+*297684: "06"
+*312624: "09"
+*459649: "08"
+*323459: "23"
+*499709: "12"
+*279540: "07"
+*612972: "28"
+*288432: "13"
+*customsz: "21"
+
+*% =========================================================
+*% Paper Width Table
+*% =========================================================
+*Width612792: "2550"	
+*Width6121008: "2550"
+*Width612936: "2550"
+*Width522756: "2175"
+*Width595842: "2480"
+*Width420595: "1748"
+*Width516729: "2149"
+*Width297420: "1240"
+*Width297684: "1237"
+*Width312624: "1299"
+*Width459649: "1913"
+*Width323459: "1346"
+*Width499709: "2078"
+*Width279540: "1162"
+*Width612972: "2550"
+*Width261468: "1087"
+*Width279639: "1162"
+
+*% =========================================================
+*% Get Media source
+*% =========================================================
+*etray0: "01"
+*etray1: "01"
+*etray2: "02"
+*etray3: "03"
+*etray4: "04"
+*etray5: "05"
+
+*% =========================================================
+*% Get Resolution
+*% =========================================================
+*eResolution300: "03"
+*eResolution600: "06"
+*eResolution1200: "12"
+
+*% =========================================================
+*% Get Band Height
+*% =========================================================
+*eband3: "64"
+*eband6: "128"
+*eband12: "128"
+
+*% =========================================================
+*%  Paper Handling
+*% =========================================================
+*% Use these entries to set paper size unless there is a specific
+*% reason to use PageRegion, such as when using manual feed.
+*OpenUI *PageSize/Page Size: PickOne
+*OrderDependency: 30 AnySetup *PageSize
+*DefaultPageSize: Letter
+*PageSize Letter/Letter: "<</PageSize [612 792] /ImagingBBox null>> setpagedevice"
+*PageSize Legal/Legal: "<</PageSize [612 1008] /ImagingBBox null>> setpagedevice"
+*PageSize Executive/Executive: "<</PageSize [522 756] /ImagingBBox null>> setpagedevice"
+*PageSize A4/A4: "<</PageSize [595 842] /ImagingBBox null>> setpagedevice"
+*PageSize A5/A5: "<</PageSize [420 595] /ImagingBBox null>> setpagedevice"
+*PageSize B5-JIS/JIS B5: "<</PageSize [516 729] /ImagingBBox null>> setpagedevice"
+*PageSize US-Folio/US Folio: "<</PageSize [612 936] /ImagingBBox null>> setpagedevice"
+*PageSize Env10/No. 10 Env.: "<</PageSize [297 684] /ImagingBBox null>> setpagedevice"
+*PageSize EnvDL/DL Env.: "<</PageSize [312 624] /ImagingBBox null>> setpagedevice"
+*PageSize EnvC5/C5 Env.: "<</PageSize [459 649] /ImagingBBox null>> setpagedevice"
+*PageSize B5-ISO/ISO B5: "<</PageSize [499 709] /ImagingBBox null>> setpagedevice"
+*PageSize EnvMonarch/Monarch Env.: "<</PageSize [279 540] /ImagingBBox null>> setpagedevice"
+*PageSize Oficio/Oficio: "<</PageSize [612 972] /ImagingBBox null>> setpagedevice"
+*CloseUI: *PageSize
+
+*OpenUI *PageRegion: PickOne
+*OrderDependency: 40 AnySetup *PageRegion
+*DefaultPageRegion: Letter
+*PageRegion Letter/Letter: "<</PageSize [612 792] /ImagingBBox null>> setpagedevice"
+*PageRegion Legal/Legal: "<</PageSize [612 1008] /ImagingBBox null>> setpagedevice"
+*PageRegion Executive/Executive: "<</PageSize [522 756] /ImagingBBox null>> setpagedevice"
+*PageRegion A4/A4: "<</PageSize [595 842] /ImagingBBox null>> setpagedevice"
+*PageRegion A5/A5: "<</PageSize [420 595] /ImagingBBox null>> setpagedevice"
+*PageRegion B5-JIS/JIS B5: "<</PageSize [516 729] /ImagingBBox null>> setpagedevice"
+*PageRegion US-Folio/US Folio: "<</PageSize [612 936] /ImagingBBox null>> setpagedevice"
+*PageRegion Env10/No. 10 Env.: "<</PageSize [297 684] /ImagingBBox null>> setpagedevice"
+*PageRegion EnvDL/DL Env.: "<</PageSize [312 624] /ImagingBBox null>> setpagedevice"
+*PageRegion EnvC5/C5 Env.: "<</PageSize [459 649] /ImagingBBox null>> setpagedevice"
+*PageRegion B5-ISO/ISO B5: "<</PageSize [499 709] /ImagingBBox null>> setpagedevice"
+*PageRegion EnvMonarch/Monarch Env.: "<</PageSize [279 540] /ImagingBBox null>> setpagedevice"
+*PageRegion Oficio/Oficio: "<</PageSize [612 972] /ImagingBBox null>> setpagedevice"
+*CloseUI: *PageRegion
+
+
+*% These entries provide the imageable areas of the media option keywords
+*DefaultImageableArea: Letter
+*ImageableArea Letter/Letter: "12.24 12.06 599.76 780.06"
+*ImageableArea Legal/Legal: "12.5 12.5 599.5 995.5"
+*ImageableArea Executive/Executive: "13.3 12.1 508.7 744.1"
+*ImageableArea A4/A4: "12.5 12.5 582.5 829.5"
+*ImageableArea A5/A5: "12.5 12.5 407.5 582.5"
+*ImageableArea B5-JIS/JIS B5: "12.5 12.5 503.5 716.5"
+*ImageableArea US-Folio/US Folio: "12.5 12.5 599.5 923.5"
+*ImageableArea Env10/No. 10 Env.: "13 13 284.5 671.5"
+*ImageableArea EnvDL/DL Env.: "13.8 12.1 297.9 611.6"
+*ImageableArea EnvC5/C5 Env.: "12.6 12.1 446.5 637.0"
+*ImageableArea B5-ISO/ISO B5: "13.20 12.06 485.52 696.54"
+*ImageableArea EnvMonarch/Monarch Env.: "12.7 12.1 266.2 528.1"
+*ImageableArea Oficio/Oficio: "12.5 12.5 599.5 959.5"
+
+*% These provide the physical dimensions of the media, by option keyword.
+*DefaultPaperDimension: Letter
+*PaperDimension Letter/Letter: "612 792"
+*PaperDimension Legal/Legal: "612 1008"
+*PaperDimension Executive/Executive: "522 756"
+*PaperDimension A4/A4: "595 842"
+*PaperDimension A5/A5: "420 595"
+*PaperDimension B5-JIS/JIS B5: "516 729"
+*PaperDimension US-Folio/US Folio: "612 936"
+*PaperDimension Env10/No. 10 Env.: "297 684"
+*PaperDimension EnvDL/DL Env.: "312 624"
+*PaperDimension EnvC5/C5 Env.: "459 649"
+*PaperDimension B5-ISO/ISO B5: "499 709"
+*PaperDimension EnvMonarch/Monarch Env.: "279 540"
+*PaperDimension Oficio/Oficio: "612 972"
+
+*%=== Custom Paper Support =================
+*VariablePaperSize: True
+*LeadingEdge Short: ""
+*DefaultLeadingEdge: Short
+*MaxMediaWidth: "612"
+*MaxMediaHeight: "1008"
+*HWMargins: 16 16 16 16
+*CustomPageSize True: "
+     pop pop pop 
+   <</PageSize [ 5 -2 roll ] /ImagingBBox null >> setpagedevice
+"
+*End
+
+*ParamCustomPageSize Width: 1 points 216 612
+*ParamCustomPageSize Height: 2 points 518.4 1008
+*ParamCustomPageSize WidthOffset: 3 points 0 0
+*ParamCustomPageSize HeightOffset: 4 points 0 0
+*ParamCustomPageSize Orientation: 5 int 1 1
+
+
+
+
+*% =========================================================
+*%  Paper Source
+*% =========================================================
+*OpenUI *InputSlot/Paper Source: PickOne
+*OrderDependency: 20 AnySetup *InputSlot
+*DefaultInputSlot: Auto
+*InputSlot Auto/Printer Auto Selection: "<</cupsMediaPosition 1>>setpagedevice"
+*End
+*InputSlot Manual/Manual Feeder: "<</cupsMediaPosition 2>>setpagedevice"
+*End
+*CloseUI: *InputSlot
+
+*% =========================================================
+*%  Media Type
+*% =========================================================
+*OpenUI *MediaType/Paper Type: PickOne
+*OrderDependency: 10 AnySetup *MediaType
+*DefaultMediaType: Default
+*MediaType Default/Printer Default:	"<</MediaType(@PJL SET PAPERTYPE = OFF)/cupsMediaType 0>>setpagedevice"
+*MediaType Plain/Plain: "<</MediaType(@PJL SET PAPERTYPE = NORMAL)/cupsMediaType 1>>setpagedevice"
+*MediaType Thick/Thick:	"<</MediaType(@PJL SET PAPERTYPE = THICK)/cupsMediaType 2>>setpagedevice"
+*MediaType Thin/Thin: "<</MediaType(@PJL SET PAPERTYPE = THIN)/cupsMediaType 3>>setpagedevice"
+*MediaType Bond/Bond:	"<</MediaType(@PJL SET PAPERTYPE = BOND)/cupsMediaType 4>>setpagedevice"
+*MediaType Colored/Color:	"<</MediaType(@PJL SET PAPERTYPE = COLOR)/cupsMediaType 5>>setpagedevice"
+*MediaType Card/CardStock:	"<</MediaType(@PJL SET PAPERTYPE = CARD)/cupsMediaType 6>>setpagedevice"
+*MediaType Label/Labels:	"<</MediaType(@PJL SET PAPERTYPE = LABEL)/cupsMediaType 7>>setpagedevice"
+*MediaType Transparency/Transparency:	"<</MediaType(@PJL SET PAPERTYPE = OHP)/cupsMediaType 8>>setpagedevice"
+*MediaType Envelope/Envelope:	"<</MediaType(@PJL SET PAPERTYPE = ENV)/cupsMediaType 9>>setpagedevice"
+*MediaType Preprinted/Preprinted:	"<</MediaType(@PJL SET PAPERTYPE = USED)/cupsMediaType 10>>setpagedevice"
+*MediaType Recycled/Recycled: 	        "<</MediaType(@PJL SET PAPERTYPE = RECYCLED)/cupsMediaType 12>>setpagedevice"
+*MediaType Cotton/Cotton:               "<</MediaType(@PJL SET PAPERTYPE = COTTON)/cupsMediaType 11>>setpagedevice"
+*MediaType Archive/Archive:             "<</MediaType(@PJL SET PAPERTYPE = ARCHIVE)/cupsMediaType 13>>setpagedevice"
+*CloseUI: *MediaType
+
+*% =========================================================
+*%  SECResolution (Graphic2.plugin)
+*% =========================================================
+*OpenUI *SECResolution/Quality: PickOne
+*OrderDependency: 20 AnySetup *SECResolution
+*DefaultSECResolution: Normal
+*SECResolution Best/Best: "<</HWResolution[600 600] /cupsRowFeed 2 /cupsRowStep 2 /cupsRowCount 1 >>setpagedevice"
+*SECResolution Normal/Normal: "<</HWResolution[600 600] /cupsRowFeed 1 /cupsRowStep 1 /cupsRowCount 1 >>setpagedevice"
+*CloseUI: *SECResolution
+
+*eNormalTable: "6x6x1"
+*eBestTable: "12x12x1"
+
+*DefaultResolution: 600dpi
+
+*% =========================================================
+*%  Color & Gray Option
+*% =========================================================
+*OpenUI *ColorModel/Color Mode:  PickOne
+*OrderDependency: 20 AnySetup *ColorModel
+*DefaultColorModel: Gray
+*ColorModel Gray/Grayscale: "<</cupsColorOrder 0/cupsColorSpace 3/cupsBitsPerColor 8>>setpagedevice"
+*CloseUI: *ColorModel
+
+*% =========================================================
+*%  Fine Edge Option
+*% =========================================================
+*OpenUI *id_FineEdge/Fine Edge: PickOne
+*OrderDependency: 10 AnySetup *id_FineEdge
+*Defaultid_FineEdge: On
+*id_FineEdge On/On: ""
+*id_FineEdge Off/Off: ""
+*CloseUI: *id_FineEdge
+
+
+*% =========================================================
+*%  IPP Reason
+*% =========================================================
+*cupsIPPReason com.samsung.MPPaperMismatch-error:"text:Paper%20Mismatch%20MP"
+*de.cupsIPPReason com.samsung.MPPaperMismatch-error:"text:Falsches%20Papier%20in%20MZS"
+*es.cupsIPPReason com.samsung.MPPaperMismatch-error:"text:Discrepancia%20papel%20multiusos"
+*fr.cupsIPPReason com.samsung.MPPaperMismatch-error:"text:Disparité%20papier%20dans%20le%20bac%20polyvalent"
+*it.cupsIPPReason com.samsung.MPPaperMismatch-error:"text:Carta%20di%20formato%20diverso%20vassoio%20multifunzione"
+*nl.cupsIPPReason com.samsung.MPPaperMismatch-error:"text:Verkeerd%20papier%20in%20MPT"
+*ko.cupsIPPReason com.samsung.MPPaperMismatch-error:"text:다목적용지함%20용지%20불일치"
+*pt.cupsIPPReason com.samsung.MPPaperMismatch-error:"text:O%20papel%20não%20corresponde%20no%20tabuleiro%20multifuncional"
+*zh_CN.cupsIPPReason com.samsung.MPPaperMismatch-error:"text:MP%20纸盘纸张不匹配"
+*zh_TW.cupsIPPReason com.samsung.MPPaperMismatch-error:"text:紙匣%20MP%20紙張不符"
+
+
+
+*cupsIPPReason com.samsung.FirstPaperMismatch-error:"text:Paper%20Mismatch%20tray%201"
+*de.cupsIPPReason com.samsung.FirstPaperMismatch-error:"text:Falsches%20Papier%20in%20Schacht%201"
+*es.cupsIPPReason com.samsung.FirstPaperMismatch-error:"text:Discrepancia%20de%20papel%20bandeja%201"
+*fr.cupsIPPReason com.samsung.FirstPaperMismatch-error:"text:Disparité%20papier%20dans%20le%20bac%201"
+*it.cupsIPPReason com.samsung.FirstPaperMismatch-error:"text:Carta%20di%20formato%20diverso%20vassoio%201"
+*nl.cupsIPPReason com.samsung.FirstPaperMismatch-error:"text:Verkeerd%20papier%20in%20lade%201"
+*ko.cupsIPPReason com.samsung.FirstPaperMismatch-error:"text:용지함1용지%20불일치"
+*pt.cupsIPPReason com.samsung.FirstPaperMismatch-error:"text:O%20papel%20não%20corresponde%20no%20tabuleiro%201"
+*zh_CN.cupsIPPReason com.samsung.FirstPaperMismatch-error:"text:纸盘%201%20纸盘纸张不匹配"
+*zh_TW.cupsIPPReason com.samsung.FirstPaperMismatch-error:"text:紙匣%201%20紙張不符"
+
+
+*cupsIPPReason com.samsung.OptPaperMismatch-error:"text:Paper%20Mismatch%20tray%202"
+*de.cupsIPPReason com.samsung.OptPaperMismatch-error:"text:Falsches%20Papier%20in%20Schacht%202"
+*es.cupsIPPReason com.samsung.OptPaperMismatch-error:"text:Discrepancia%20de%20papel%20bandeja%202"
+*fr.cupsIPPReason com.samsung.OptPaperMismatch-error:"text:Disparité%20papier%20dans%20le%20bac%202"
+*it.cupsIPPReason com.samsung.OptPaperMismatch-error:"text:Carta%20di%20formato%20diverso%20vassoio%202"
+*nl.cupsIPPReason com.samsung.OptPaperMismatch-error:"text:Verkeerd%20papier%20in%20lade%202"
+*ko.cupsIPPReason com.samsung.OptPaperMismatch-error:"text:용지함2용지%20불일치"
+*pt.cupsIPPReason com.samsung.OptPaperMismatch-error:"text:O%20papel%20não%20corresponde%20no%20tabuleiro%202"
+*zh_CN.cupsIPPReason com.samsung.OptPaperMismatch-error:"text:纸盘%202%20纸盘纸张不匹配"
+*zh_TW.cupsIPPReason com.samsung.OptPaperMismatch-error:"text:紙匣%202%20紙張不符"
+
+
+*cupsIPPReason com.samsung.Opt3PaperMismatch-error:"text:Paper%20Mismatch%20tray%203"
+*de.cupsIPPReason com.samsung.Opt3PaperMismatch-error:"text:Falsches%20Papier%20in%20Schacht%203"
+*es.cupsIPPReason com.samsung.Opt3PaperMismatch-error:"text:Discrepancia%20de%20papel%20bandeja%203"
+*fr.cupsIPPReason com.samsung.Opt3PaperMismatch-error:"text:Disparité%20papier%20dans%20le%20bac%203"
+*it.cupsIPPReason com.samsung.Opt3PaperMismatch-error:"text:Carta%20di%20formato%20diverso%20vassoio%203"
+*nl.cupsIPPReason com.samsung.Opt3PaperMismatch-error:"text:Verkeerd%20papier%20in%20lade%203"
+*ko.cupsIPPReason com.samsung.Opt3PaperMismatch-error:"text:용지함3용지%20불일치"
+*pt.cupsIPPReason com.samsung.Opt3PaperMismatch-error:"text:O%20papel%20não%20corresponde%20no%20tabuleiro%203"
+*zh_CN.cupsIPPReason com.samsung.Opt3PaperMismatch-error:"text:纸盘%203%20纸盘纸张不匹配"
+*zh_TW.cupsIPPReason com.samsung.Opt3PaperMismatch-error:"text:紙匣%203%20紙張不符"
+
+
+*cupsIPPReason com.samsung.OptPaperMismatchHcf-error:"text:Paper%20Mismatch%20tray%202%28HCF%29"
+*de.cupsIPPReason com.samsung.OptPaperMismatchHcf-error:"text:Falsches%20Papier%20in%20Schacht%202%20%28HCF%29"
+*es.cupsIPPReason com.samsung.OptPaperMismatchHcf-error:"text:Discrepancia%20de%20papel%20en%20la%20bandeja%202%20%28alimentador%20de%20alta%20capacidad%29"
+*fr.cupsIPPReason com.samsung.OptPaperMismatchHcf-error:"text:Format%20de%20papier%20incorrect%20dans%20le%20bac%202"
+*it.cupsIPPReason com.samsung.OptPaperMismatchHcf-error:"text:Carta%20di%20formato%20diverso%20vassoio%202%20%28HCF%29"
+*nl.cupsIPPReason com.samsung.OptPaperMismatchHcf-error:"text:Verkeerd%20papier%20in%20lade%202%20%28HCF%29"
+*ko.cupsIPPReason com.samsung.OptPaperMismatchHcf-error:"text:용지함%202%28HCF%29%20용지%20불일치"
+*pt.cupsIPPReason com.samsung.OptPaperMismatchHcf-error:"text:O%20papel%20não%20corresponde%20no%20tabuleiro%202%20%28HCF%29"
+*zh_CN.cupsIPPReason com.samsung.OptPaperMismatchHcf-error:"text:纸盘%202%20%28HCF%29%20纸张不匹配"
+*zh_TW.cupsIPPReason com.samsung.OptPaperMismatchHcf-error:"text:紙匣%202%20%28HCF%29%20中紙張不符"
+
+
+*cupsIPPReason com.samsung.Opt3PaperMismatchHcf-error:"text:Paper%20Mismatch%20tray%203%28HCF%29"
+*de.cupsIPPReason com.samsung.Opt3PaperMismatchHcf-error:"text:Falsches%20Papier%20in%20Schacht%203%20%28HCF%29"
+*es.cupsIPPReason com.samsung.Opt3PaperMismatchHcf-error:"text:Discrepancia%20de%20papel%20en%20la%20bandeja%203%20%28alimentador%20de%20alta%20capacidad%29"
+*fr.cupsIPPReason com.samsung.Opt3PaperMismatchHcf-error:"text:Format%20de%20papier%20incorrect%20dans%20le%20bac%203"
+*it.cupsIPPReason com.samsung.Opt3PaperMismatchHcf-error:"text:Carta%20di%20formato%20diverso%20vassoio%203%20%28HCF%29"
+*nl.cupsIPPReason com.samsung.Opt3PaperMismatchHcf-error:"text:Verkeerd%20papier%20in%20lade%203%20%28HCF%29"
+*ko.cupsIPPReason com.samsung.Opt3PaperMismatchHcf-error:"text:용지함%203%28HCF%29%20용지%20불일치"
+*pt.cupsIPPReason com.samsung.Opt3PaperMismatchHcf-error:"text:O%20papel%20não%20corresponde%20no%20tabuleiro%203%20%28HCF%29"
+*zh_CN.cupsIPPReason com.samsung.Opt3PaperMismatchHcf-error:"text:纸盘%203%20%28HCF%29%20纸张不匹配"
+*zh_TW.cupsIPPReason com.samsung.Opt3PaperMismatchHcf-error:"text:紙匣%203%20%28HCF%29%20中紙張不符"
+
+
+*cupsIPPReason com.samsung.InvalidTonerKitPwdY-error:"text:Yellow%20toner%20cartridge%20is%20not%20compatible.%20Check%20user's%20guide"
+*de.cupsIPPReason com.samsung.InvalidTonerKitPwdY-error:"text:Gelb-Tonerkartusche%20ist%20nicht%20kompatibel.%20Im%20Handbuch%20nachsehen."
+*es.cupsIPPReason com.samsung.InvalidTonerKitPwdY-error:"text:El%20cartucho%20de%20tóner%20amarillo%20no%20es%20compatible.%20Consultar%20el%20Manual%20de%20Usuario."
+*fr.cupsIPPReason com.samsung.InvalidTonerKitPwdY-error:"text:La%20cartouche%20de%20toner%20jaune%20n’est%20pas%20compatible.%20Consultez%20le%20mode%20d’emploi."
+*it.cupsIPPReason com.samsung.InvalidTonerKitPwdY-error:"text:La%20cartuccia%20del%20toner%20giallo%20non%20è%20compatibile.%20Controllare%20la%20guida%20dell'utente."
+*nl.cupsIPPReason com.samsung.InvalidTonerKitPwdY-error:"text:Cassette%20met%20gele%20toner%20is%20niet%20compatibel.%20Raadpleeg%20de%20gebruikershandleiding."
+*ko.cupsIPPReason com.samsung.InvalidTonerKitPwdY-error:"text:사용할%20수%20없는%20노랑색%20토너입니다.%20설명서를%20참조하십시오."
+*pt.cupsIPPReason com.samsung.InvalidTonerKitPwdY-error:"text:O%20cartucho%20de%20toner%20amarelo%20não%20é%20compatível.%20Consulte%20o%20manual%20do%20utilizador."
+*zh_CN.cupsIPPReason com.samsung.InvalidTonerKitPwdY-error:"text:黄色墨粉盒不兼容。%20请查阅用户指南。"
+*zh_TW.cupsIPPReason com.samsung.InvalidTonerKitPwdY-error:"text:黃色碳粉匣不相容。%20查閱使用手冊。"
+
+*cupsIPPReason com.samsung.InvalidTonerKitY-error:"text:Yellow%20toner%20cartridge%20is%20not%20compatible.%20Check%20user's%20guide"
+*de.cupsIPPReason com.samsung.InvalidTonerKitY-error:"text:Gelb-Tonerkartusche%20ist%20nicht%20kompatibel.%20Im%20Handbuch%20nachsehen."
+*es.cupsIPPReason com.samsung.InvalidTonerKitY-error:"text:El%20cartucho%20de%20tóner%20amarillo%20no%20es%20compatible.%20Consultar%20el%20Manual%20de%20Usuario."
+*fr.cupsIPPReason com.samsung.InvalidTonerKitY-error:"text:La%20cartouche%20de%20toner%20jaune%20n’est%20pas%20compatible.%20Consultez%20le%20mode%20d’emploi."
+*it.cupsIPPReason com.samsung.InvalidTonerKitY-error:"text:La%20cartuccia%20del%20toner%20giallo%20non%20è%20compatibile.%20Controllare%20la%20guida%20dell'utente."
+*nl.cupsIPPReason com.samsung.InvalidTonerKitY-error:"text:Cassette%20met%20gele%20toner%20is%20niet%20compatibel.%20Raadpleeg%20de%20gebruikershandleiding."
+*ko.cupsIPPReason com.samsung.InvalidTonerKitY-error:"text:사용할%20수%20없는%20노랑색%20토너입니다.%20설명서를%20참조하십시오."
+*pt.cupsIPPReason com.samsung.InvalidTonerKitY-error:"text:O%20cartucho%20de%20toner%20amarelo%20não%20é%20compatível.%20Consulte%20o%20manual%20do%20utilizador."
+*zh_CN.cupsIPPReason com.samsung.InvalidTonerKitY-error:"text:黄色墨粉盒不兼容。%20请查阅用户指南。"
+*zh_TW.cupsIPPReason com.samsung.InvalidTonerKitY-error:"text:黃色碳粉匣不相容。%20查閱使用手冊。"
+
+*cupsIPPReason com.samsung.NonGenuineTonerY-error:"text:Yellow%20toner%20cartridge%20is%20not%20compatible.%20Check%20user's%20guide"
+*de.cupsIPPReason com.samsung.NonGenuineTonerY-error:"text:Gelb-Tonerkartusche%20ist%20nicht%20kompatibel.%20Im%20Handbuch%20nachsehen."
+*es.cupsIPPReason com.samsung.NonGenuineTonerY-error:"text:El%20cartucho%20de%20tóner%20amarillo%20no%20es%20compatible.%20Consultar%20el%20Manual%20de%20Usuario."
+*fr.cupsIPPReason com.samsung.NonGenuineTonerY-error:"text:La%20cartouche%20de%20toner%20jaune%20n’est%20pas%20compatible.%20Consultez%20le%20mode%20d’emploi."
+*it.cupsIPPReason com.samsung.NonGenuineTonerY-error:"text:La%20cartuccia%20del%20toner%20giallo%20non%20è%20compatibile.%20Controllare%20la%20guida%20dell'utente."
+*nl.cupsIPPReason com.samsung.NonGenuineTonerY-error:"text:Cassette%20met%20gele%20toner%20is%20niet%20compatibel.%20Raadpleeg%20de%20gebruikershandleiding."
+*ko.cupsIPPReason com.samsung.NonGenuineTonerY-error:"text:사용할%20수%20없는%20노랑색%20토너입니다.%20설명서를%20참조하십시오."
+*pt.cupsIPPReason com.samsung.NonGenuineTonerY-error:"text:O%20cartucho%20de%20toner%20amarelo%20não%20é%20compatível.%20Consulte%20o%20manual%20do%20utilizador."
+*zh_CN.cupsIPPReason com.samsung.NonGenuineTonerY-error:"text:黄色墨粉盒不兼容。%20请查阅用户指南。"
+*zh_TW.cupsIPPReason com.samsung.NonGenuineTonerY-error:"text:黃色碳粉匣不相容。%20查閱使用手冊。"
+
+
+*cupsIPPReason com.samsung.InvalidTonerKitPwdM-error:"text:Magenta%20toner%20cartridge%20is%20not%20compatible.%20Check%20user's%20guide"
+*de.cupsIPPReason com.samsung.InvalidTonerKitPwdM-error:"text:Magenta-Tonerkartusche%20ist%20nicht%20kompatibel.%20Im%20Handbuch%20nachsehen."
+*es.cupsIPPReason com.samsung.InvalidTonerKitPwdM-error:"text:El%20cartucho%20de%20tóner%20magenta%20no%20es%20compatible.%20Consultar%20el%20Manual%20de%20Usuario."
+*fr.cupsIPPReason com.samsung.InvalidTonerKitPwdM-error:"text:La%20cartouche%20de%20toner%20magenta%20n’est%20pas%20compatible.%20Consultez%20le%20mode%20d’emploi."
+*it.cupsIPPReason com.samsung.InvalidTonerKitPwdM-error:"text:La%20cartuccia%20del%20toner%20magenta%20non%20è%20compatibile.%20Controllare%20la%20guida%20dell'utente."
+*nl.cupsIPPReason com.samsung.InvalidTonerKitPwdM-error:"text:Cassette%20met%20magenta%20toner%20is%20niet%20compatibel.%20Raadpleeg%20de%20gebruikershandleiding."
+*ko.cupsIPPReason com.samsung.InvalidTonerKitPwdM-error:"text:사용할%20수%20없는%20마젠타%20토너입니다.%20설명서를%20참조하십시오."
+*pt.cupsIPPReason com.samsung.InvalidTonerKitPwdM-error:"text:O%20cartucho%20de%20toner%20magenta%20não%20é%20compatível.%20Consulte%20o%20manual%20do%20utilizador."
+*zh_CN.cupsIPPReason com.samsung.InvalidTonerKitPwdM-error:"text:洋红色墨粉盒不兼容。%20请查阅用户指南。"
+*zh_TW.cupsIPPReason com.samsung.InvalidTonerKitPwdM-error:"text:洋紅色碳粉匣不相容。%20查閱使用手冊。"
+
+*cupsIPPReason com.samsung.InvalidTonerKitM-error:"text:Magenta%20toner%20cartridge%20is%20not%20compatible.%20Check%20user's%20guide"
+*de.cupsIPPReason com.samsung.InvalidTonerKitM-error:"text:Magenta-Tonerkartusche%20ist%20nicht%20kompatibel.%20Im%20Handbuch%20nachsehen."
+*es.cupsIPPReason com.samsung.InvalidTonerKitM-error:"text:El%20cartucho%20de%20tóner%20magenta%20no%20es%20compatible.%20Consultar%20el%20Manual%20de%20Usuario."
+*fr.cupsIPPReason com.samsung.InvalidTonerKitM-error:"text:La%20cartouche%20de%20toner%20magenta%20n’est%20pas%20compatible.%20Consultez%20le%20mode%20d’emploi."
+*it.cupsIPPReason com.samsung.InvalidTonerKitM-error:"text:La%20cartuccia%20del%20toner%20magenta%20non%20è%20compatibile.%20Controllare%20la%20guida%20dell'utente."
+*nl.cupsIPPReason com.samsung.InvalidTonerKitM-error:"text:Cassette%20met%20magenta%20toner%20is%20niet%20compatibel.%20Raadpleeg%20de%20gebruikershandleiding."
+*ko.cupsIPPReason com.samsung.InvalidTonerKitM-error:"text:사용할%20수%20없는%20마젠타%20토너입니다.%20설명서를%20참조하십시오."
+*pt.cupsIPPReason com.samsung.InvalidTonerKitM-error:"text:O%20cartucho%20de%20toner%20magenta%20não%20é%20compatível.%20Consulte%20o%20manual%20do%20utilizador."
+*zh_CN.cupsIPPReason com.samsung.InvalidTonerKitM-error:"text:洋红色墨粉盒不兼容。%20请查阅用户指南。"
+*zh_TW.cupsIPPReason com.samsung.InvalidTonerKitM-error:"text:洋紅色碳粉匣不相容。%20查閱使用手冊。"
+
+*cupsIPPReason com.samsung.NonGenuineTonerM-error:"text:Magenta%20toner%20cartridge%20is%20not%20compatible.%20Check%20user's%20guide"
+*de.cupsIPPReason com.samsung.NonGenuineTonerM-error:"text:Magenta-Tonerkartusche%20ist%20nicht%20kompatibel.%20Im%20Handbuch%20nachsehen."
+*es.cupsIPPReason com.samsung.NonGenuineTonerM-error:"text:El%20cartucho%20de%20tóner%20magenta%20no%20es%20compatible.%20Consultar%20el%20Manual%20de%20Usuario."
+*fr.cupsIPPReason com.samsung.NonGenuineTonerM-error:"text:La%20cartouche%20de%20toner%20magenta%20n’est%20pas%20compatible.%20Consultez%20le%20mode%20d’emploi."
+*it.cupsIPPReason com.samsung.NonGenuineTonerM-error:"text:La%20cartuccia%20del%20toner%20magenta%20non%20è%20compatibile.%20Controllare%20la%20guida%20dell'utente."
+*nl.cupsIPPReason com.samsung.NonGenuineTonerM-error:"text:Cassette%20met%20magenta%20toner%20is%20niet%20compatibel.%20Raadpleeg%20de%20gebruikershandleiding."
+*ko.cupsIPPReason com.samsung.NonGenuineTonerM-error:"text:사용할%20수%20없는%20마젠타%20토너입니다.%20설명서를%20참조하십시오."
+*pt.cupsIPPReason com.samsung.NonGenuineTonerM-error:"text:O%20cartucho%20de%20toner%20magenta%20não%20é%20compatível.%20Consulte%20o%20manual%20do%20utilizador."
+*zh_CN.cupsIPPReason com.samsung.NonGenuineTonerM-error:"text:洋红色墨粉盒不兼容。%20请查阅用户指南。"
+*zh_TW.cupsIPPReason com.samsung.NonGenuineTonerM-error:"text:洋紅色碳粉匣不相容。%20查閱使用手冊。"
+
+
+*cupsIPPReason com.samsung.InvalidTonerKitPwdC-error:"text:Cyan%20toner%20cartridge%20is%20not%20compatible.%20Check%20user's%20guide"
+*de.cupsIPPReason com.samsung.InvalidTonerKitPwdC-error:"text:Cyan-Tonerkartusche%20ist%20nicht%20kompatibel.%20Im%20Handbuch%20nachsehen."
+*es.cupsIPPReason com.samsung.InvalidTonerKitPwdC-error:"text:El%20cartucho%20de%20tóner%20cian%20no%20es%20compatible.%20Consultar%20el%20Manual%20de%20Usuario."
+*fr.cupsIPPReason com.samsung.InvalidTonerKitPwdC-error:"text:La%20cartouche%20de%20toner%20cyan%20n’est%20pas%20compatible.%20Consultez%20le%20mode%20d’emploi."
+*it.cupsIPPReason com.samsung.InvalidTonerKitPwdC-error:"text:La%20cartuccia%20del%20toner%20ciano%20non%20è%20compatibile.%20Controllare%20la%20guida%20dell'utente."
+*nl.cupsIPPReason com.samsung.InvalidTonerKitPwdC-error:"text:Cassette%20met%20cyaan%20toner%20is%20niet%20compatibel.%20Raadpleeg%20de%20gebruikershandleiding."
+*ko.cupsIPPReason com.samsung.InvalidTonerKitPwdC-error:"text:사용할%20수%20없는%20시안%20토너입니다.%20설명서를%20참조하십시오"
+*pt.cupsIPPReason com.samsung.InvalidTonerKitPwdC-error:"text:O%20cartucho%20de%20toner%20turquesa%20não%20é%20compatível.%20Consulte%20o%20manual%20do%20utilizador."
+*zh_CN.cupsIPPReason com.samsung.InvalidTonerKitPwdC-error:"text:青色墨粉盒不兼容。%20请查阅用户指南。"
+*zh_TW.cupsIPPReason com.samsung.InvalidTonerKitPwdC-error:"text:青色碳粉匣不相容。%20查閱使用手冊。"
+
+*cupsIPPReason com.samsung.InvalidTonerKitC-error:"text:Cyan%20toner%20cartridge%20is%20not%20compatible.%20Check%20user's%20guide"
+*de.cupsIPPReason com.samsung.InvalidTonerKitC-error:"text:Cyan-Tonerkartusche%20ist%20nicht%20kompatibel.%20Im%20Handbuch%20nachsehen."
+*es.cupsIPPReason com.samsung.InvalidTonerKitC-error:"text:El%20cartucho%20de%20tóner%20cian%20no%20es%20compatible.%20Consultar%20el%20Manual%20de%20Usuario."
+*fr.cupsIPPReason com.samsung.InvalidTonerKitC-error:"text:La%20cartouche%20de%20toner%20cyan%20n’est%20pas%20compatible.%20Consultez%20le%20mode%20d’emploi."
+*it.cupsIPPReason com.samsung.InvalidTonerKitC-error:"text:La%20cartuccia%20del%20toner%20ciano%20non%20è%20compatibile.%20Controllare%20la%20guida%20dell'utente."
+*nl.cupsIPPReason com.samsung.InvalidTonerKitC-error:"text:Cassette%20met%20cyaan%20toner%20is%20niet%20compatibel.%20Raadpleeg%20de%20gebruikershandleiding."
+*ko.cupsIPPReason com.samsung.InvalidTonerKitC-error:"text:사용할%20수%20없는%20시안%20토너입니다.%20설명서를%20참조하십시오"
+*pt.cupsIPPReason com.samsung.InvalidTonerKitC-error:"text:O%20cartucho%20de%20toner%20turquesa%20não%20é%20compatível.%20Consulte%20o%20manual%20do%20utilizador."
+*zh_CN.cupsIPPReason com.samsung.InvalidTonerKitC-error:"text:青色墨粉盒不兼容。%20请查阅用户指南。"
+*zh_TW.cupsIPPReason com.samsung.InvalidTonerKitC-error:"text:青色碳粉匣不相容。%20查閱使用手冊。"
+
+*cupsIPPReason com.samsung.NonGenuineTonerC-error:"text:Cyan%20toner%20cartridge%20is%20not%20compatible.%20Check%20user's%20guide"
+*de.cupsIPPReason com.samsung.NonGenuineTonerC-error:"text:Cyan-Tonerkartusche%20ist%20nicht%20kompatibel.%20Im%20Handbuch%20nachsehen."
+*es.cupsIPPReason com.samsung.NonGenuineTonerC-error:"text:El%20cartucho%20de%20tóner%20cian%20no%20es%20compatible.%20Consultar%20el%20Manual%20de%20Usuario."
+*fr.cupsIPPReason com.samsung.NonGenuineTonerC-error:"text:La%20cartouche%20de%20toner%20cyan%20n’est%20pas%20compatible.%20Consultez%20le%20mode%20d’emploi."
+*it.cupsIPPReason com.samsung.NonGenuineTonerC-error:"text:La%20cartuccia%20del%20toner%20ciano%20non%20è%20compatibile.%20Controllare%20la%20guida%20dell'utente."
+*nl.cupsIPPReason com.samsung.NonGenuineTonerC-error:"text:Cassette%20met%20cyaan%20toner%20is%20niet%20compatibel.%20Raadpleeg%20de%20gebruikershandleiding."
+*ko.cupsIPPReason com.samsung.NonGenuineTonerC-error:"text:사용할%20수%20없는%20시안%20토너입니다.%20설명서를%20참조하십시오"
+*pt.cupsIPPReason com.samsung.NonGenuineTonerC-error:"text:O%20cartucho%20de%20toner%20turquesa%20não%20é%20compatível.%20Consulte%20o%20manual%20do%20utilizador."
+*zh_CN.cupsIPPReason com.samsung.NonGenuineTonerC-error:"text:青色墨粉盒不兼容。%20请查阅用户指南。"
+*zh_TW.cupsIPPReason com.samsung.NonGenuineTonerC-error:"text:青色碳粉匣不相容。%20查閱使用手冊。"
+
+
+*cupsIPPReason com.samsung.InvalidTonerKitPwdK-error:"text:Black%20toner%20cartridge%20is%20not%20compatible.%20Check%20user's%20guide"
+*de.cupsIPPReason com.samsung.InvalidTonerKitPwdK-error:"text:Schwarz-Tonerkartusche%20ist%20nicht%20kompatibel.%20Im%20Handbuch%20nachsehen."
+*es.cupsIPPReason com.samsung.InvalidTonerKitPwdK-error:"text:El%20cartucho%20de%20tóner%20negro%20no%20es%20compatible.%20Consultar%20el%20Manual%20de%20Usuario."
+*fr.cupsIPPReason com.samsung.InvalidTonerKitPwdK-error:"text:La%20cartouche%20de%20toner%20noir%20n’est%20pas%20compatible.%20Consultez%20le%20mode%20d’emploi."
+*it.cupsIPPReason com.samsung.InvalidTonerKitPwdK-error:"text:La%20cartuccia%20del%20toner%20nero%20non%20è%20compatibile.%20Controllare%20la%20guida%20dell'utente."
+*nl.cupsIPPReason com.samsung.InvalidTonerKitPwdK-error:"text:Cassette%20met%20zwarte%20toner%20is%20niet%20compatibel.%20Raadpleeg%20de%20gebruikershandleiding."
+*ko.cupsIPPReason com.samsung.InvalidTonerKitPwdK-error:"text:사용할%20수%20없는%20검정색%20토너입니다.%20설명서를%20참조하십시오"
+*pt.cupsIPPReason com.samsung.InvalidTonerKitPwdK-error:"text:O%20cartucho%20de%20toner%20preto%20não%20é%20compatível.%20Consulte%20o%20manual%20do%20utilizador."
+*zh_CN.cupsIPPReason com.samsung.InvalidTonerKitPwdK-error:"text:黑色墨粉盒不兼容。%20请查阅指南。"
+*zh_TW.cupsIPPReason com.samsung.InvalidTonerKitPwdK-error:"text:黑色碳粉匣不相容。%20查閱使用手冊。"
+
+*cupsIPPReason com.samsung.InvalidTonerKitK-error:"text:Black%20toner%20cartridge%20is%20not%20compatible.%20Check%20user's%20guide"
+*de.cupsIPPReason com.samsung.InvalidTonerKitK-error:"text:Schwarz-Tonerkartusche%20ist%20nicht%20kompatibel.%20Im%20Handbuch%20nachsehen."
+*es.cupsIPPReason com.samsung.InvalidTonerKitK-error:"text:El%20cartucho%20de%20tóner%20negro%20no%20es%20compatible.%20Consultar%20el%20Manual%20de%20Usuario."
+*fr.cupsIPPReason com.samsung.InvalidTonerKitK-error:"text:La%20cartouche%20de%20toner%20noir%20n’est%20pas%20compatible.%20Consultez%20le%20mode%20d’emploi."
+*it.cupsIPPReason com.samsung.InvalidTonerKitK-error:"text:La%20cartuccia%20del%20toner%20nero%20non%20è%20compatibile.%20Controllare%20la%20guida%20dell'utente."
+*nl.cupsIPPReason com.samsung.InvalidTonerKitK-error:"text:Cassette%20met%20zwarte%20toner%20is%20niet%20compatibel.%20Raadpleeg%20de%20gebruikershandleiding."
+*ko.cupsIPPReason com.samsung.InvalidTonerKitK-error:"text:사용할%20수%20없는%20검정색%20토너입니다.%20설명서를%20참조하십시오"
+*pt.cupsIPPReason com.samsung.InvalidTonerKitK-error:"text:O%20cartucho%20de%20toner%20preto%20não%20é%20compatível.%20Consulte%20o%20manual%20do%20utilizador."
+*zh_CN.cupsIPPReason com.samsung.InvalidTonerKitK-error:"text:黑色墨粉盒不兼容。%20请查阅指南。"
+*zh_TW.cupsIPPReason com.samsung.InvalidTonerKitK-error:"text:黑色碳粉匣不相容。%20查閱使用手冊。"
+
+*cupsIPPReason com.samsung.NonGenuineTonerK-error:"text:Black%20toner%20cartridge%20is%20not%20compatible.%20Check%20user's%20guide"
+*de.cupsIPPReason com.samsung.NonGenuineTonerK-error:"text:Schwarz-Tonerkartusche%20ist%20nicht%20kompatibel.%20Im%20Handbuch%20nachsehen."
+*es.cupsIPPReason com.samsung.NonGenuineTonerK-error:"text:El%20cartucho%20de%20tóner%20negro%20no%20es%20compatible.%20Consultar%20el%20Manual%20de%20Usuario."
+*fr.cupsIPPReason com.samsung.NonGenuineTonerK-error:"text:La%20cartouche%20de%20toner%20noir%20n’est%20pas%20compatible.%20Consultez%20le%20mode%20d’emploi."
+*it.cupsIPPReason com.samsung.NonGenuineTonerK-error:"text:La%20cartuccia%20del%20toner%20nero%20non%20è%20compatibile.%20Controllare%20la%20guida%20dell'utente."
+*nl.cupsIPPReason com.samsung.NonGenuineTonerK-error:"text:Cassette%20met%20zwarte%20toner%20is%20niet%20compatibel.%20Raadpleeg%20de%20gebruikershandleiding."
+*ko.cupsIPPReason com.samsung.NonGenuineTonerK-error:"text:사용할%20수%20없는%20검정색%20토너입니다.%20설명서를%20참조하십시오"
+*pt.cupsIPPReason com.samsung.NonGenuineTonerK-error:"text:O%20cartucho%20de%20toner%20preto%20não%20é%20compatível.%20Consulte%20o%20manual%20do%20utilizador."
+*zh_CN.cupsIPPReason com.samsung.NonGenuineTonerK-error:"text:黑色墨粉盒不兼容。%20请查阅指南。"
+*zh_TW.cupsIPPReason com.samsung.NonGenuineTonerK-error:"text:黑色碳粉匣不相容。%20查閱使用手冊。"
+
+
+*cupsIPPReason com.samsung.UsbCableOff-error:"text:USB%20Printer%20status%20is%20not%20available"
+*de.cupsIPPReason com.samsung.UsbCableOff-error:"text:USB-Druckerstatus%20nicht%20verfügbar."
+*es.cupsIPPReason com.samsung.UsbCableOff-error:"text:El%20estado%20de%20la%20impresora%20USB%20no%20está%20disponible"
+*fr.cupsIPPReason com.samsung.UsbCableOff-error:"text:L’état%20de%20l’imprimante%20USB%20n’est%20pas%20disponible."
+*it.cupsIPPReason com.samsung.UsbCableOff-error:"text:Lo%20stato%20della%20stampante%20USB%20non%20è%20disponibile"
+*nl.cupsIPPReason com.samsung.UsbCableOff-error:"text:USB-printerstatus%20is%20niet%20beschikbaar"
+*ko.cupsIPPReason com.samsung.UsbCableOff-error:"text:USB%20케이블로%20연결된%20프린터의%20상태를%20알%20수%20없습니다."
+*pt.cupsIPPReason com.samsung.UsbCableOff-error:"text:O%20estado%20da%20impressora%20USB%20não%20está%20disponível"
+*zh_CN.cupsIPPReason com.samsung.UsbCableOff-error:"text:USB%20打印机状态不可用"
+*zh_TW.cupsIPPReason com.samsung.UsbCableOff-error:"text:無法取得%20USB%20印表機狀態"
+
+
+*cupsIPPReason com.samsung.NetworkCableOff-error:"text:Network%20Printer status%20is%20not%20available"
+*de.cupsIPPReason com.samsung.NetworkCableOff-error:"text:Netzwerkdruckerstatus%20nicht%20verfügbar."
+*es.cupsIPPReason com.samsung.NetworkCableOff-error:"text:El%20estado%20de%20la%20impresora%20de%20red%20no%20está%20disponible"
+*fr.cupsIPPReason com.samsung.NetworkCableOff-error:"text:L’état%20de%20l’imprimante%20réseau%20n’est%20pas%20disponible."
+*it.cupsIPPReason com.samsung.NetworkCableOff-error:"text:Lo%20stato%20della%20stampante%20di%20rete%20non%20disponibile"
+*nl.cupsIPPReason com.samsung.NetworkCableOff-error:"text:Netwerkprinterstatus%20is%20niet%20beschikbaar"
+*ko.cupsIPPReason com.samsung.NetworkCableOff-error:"text:네트워크%20프린터의%20상태를%20알%20수%20없습니다."
+*pt.cupsIPPReason com.samsung.NetworkCableOff-error:"text:O%20estado%20da%20impressora%20de%20rede%20não%20está%20disponível"
+*zh_CN.cupsIPPReason com.samsung.NetworkCableOff-error:"text:网络打印机状态不可用"
+*zh_TW.cupsIPPReason com.samsung.NetworkCableOff-error:"text:無法取得網路印表機狀態"
+
+
+
+*cupsIPPReason com.samsung.ReplaceTransbelt-error:"text:Replace%20with%20new%20Transfer%20belt%20unit"
+*de.cupsIPPReason com.samsung.ReplaceTransbelt-error:"text:Durch%20neue%20Übertragungsbandeinheit%20ersetzen."
+*es.cupsIPPReason com.samsung.ReplaceTransbelt-error:"text:Substitúyala%20por%20una%20unidad%20de%20cinta%20de%20transferencia%20nueva."
+*fr.cupsIPPReason com.samsung.ReplaceTransbelt-error:"text:Remplacez%20par%20une%20nouvelle%20unité%20de%20bande%20d'accélération."
+*it.cupsIPPReason com.samsung.ReplaceTransbelt-error:"text:Sostituire%20con%20una%20nuova%20unità%20cinghia%20di%20trasferimento."
+*nl.cupsIPPReason com.samsung.ReplaceTransbelt-error:"text:Plaats%20een%20nieuwe%20transportriemeenheid."
+*ko.cupsIPPReason com.samsung.ReplaceTransbelt-error:"text:새%20용지%20이송벨트로%20교체하십시오."
+*pt.cupsIPPReason com.samsung.ReplaceTransbelt-error:"text:Substituir%20por%20uma%20nova%20correia%20de%20transferência."
+*zh_CN.cupsIPPReason com.samsung.ReplaceTransbelt-error:"text:更换成新的转印带装置。"
+*zh_TW.cupsIPPReason com.samsung.ReplaceTransbelt-error:"text:以新的轉印皮帶進行更換。"
+
+*cupsIPPReason com.samsung.ReplaceTransSoon-error:"text:Replace%20with%20new%20Transfer%20belt%20unit"
+*de.cupsIPPReason com.samsung.ReplaceTransSoon-error:"text:Durch%20neue%20Übertragungsbandeinheit%20ersetzen."
+*es.cupsIPPReason com.samsung.ReplaceTransSoon-error:"text:Substitúyala%20por%20una%20unidad%20de%20cinta%20de%20transferencia%20nueva."
+*fr.cupsIPPReason com.samsung.ReplaceTransSoon-error:"text:Remplacez%20par%20une%20nouvelle%20unité%20de%20bande%20d'accélération."
+*it.cupsIPPReason com.samsung.ReplaceTransSoon-error:"text:Sostituire%20con%20una%20nuova%20unità%20cinghia%20di%20trasferimento."
+*nl.cupsIPPReason com.samsung.ReplaceTransSoon-error:"text:Plaats%20een%20nieuwe%20transportriemeenheid."
+*ko.cupsIPPReason com.samsung.ReplaceTransSoon-error:"text:새%20용지%20이송벨트로%20교체하십시오."
+*pt.cupsIPPReason com.samsung.ReplaceTransSoon-error:"text:Substituir%20por%20uma%20nova%20correia%20de%20transferência."
+*zh_CN.cupsIPPReason com.samsung.ReplaceTransSoon-error:"text:更换成新的转印带装置。"
+*zh_TW.cupsIPPReason com.samsung.ReplaceTransSoon-error:"text:以新的轉印皮帶進行更換。"
+
+
+
+*cupsIPPReason com.samsung.PowerSave-report: "text:Sleeping..."
+*de.cupsIPPReason com.samsung.PowerSave-report: "text:Im Sleep-Modus..."
+*es.cupsIPPReason com.samsung.PowerSave-report: "text:En espera..."
+*fr.cupsIPPReason com.samsung.PowerSave-report: "text:En veille..."
+*it.cupsIPPReason com.samsung.PowerSave-report: "text:In attesa..."
+*nl.cupsIPPReason com.samsung.PowerSave-report: "text:In slaapstand..."
+*ko.cupsIPPReason com.samsung.PowerSave-report: "text:절전 모드"
+*pt.cupsIPPReason com.samsung.PowerSave-report: "text:=A hibernar..."
+*zh_CN.cupsIPPReason com.samsung.PowerSave-report: "text:正在休眠..."
+*zh_TW.cupsIPPReason com.samsung.PowerSave-report: "text:休眠中..."
+
+
+*cupsIPPReason com.samsung.AcrMode-report: "text:Adjusting%20Color%20Registration...%20Please%20wait%20few%20minutes."
+*de.cupsIPPReason com.samsung.AcrMode-report: "text:Farbregistrierung%20wird%20angepasst...%20Dies%20kann%20einige%20Minuten%20dauern."
+*es.cupsIPPReason com.samsung.AcrMode-report: "text:Ajustando%20el%20registro%20de%20colores...%20Espere%20unos%20minutos."
+*fr.cupsIPPReason com.samsung.AcrMode-report: "text:Réglage%20de%20l’enregistrement%20des%20couleurs...%20Veuillez%20patienter%20quelques%20minutes."
+*it.cupsIPPReason com.samsung.AcrMode-report: "text:Regolazione%20registrazione%20colori...%20Attendere%20qualche%20minuto."
+*nl.cupsIPPReason com.samsung.AcrMode-report: "text:Bezig%20met%20aanpassen%20van%20kleurregistratie...%20Enkele%20minuten%20geduld."
+*ko.cupsIPPReason com.samsung.AcrMode-report: "text:컬러%20조정중...%20잠시만%20기다려%20주세요."
+*pt.cupsIPPReason com.samsung.AcrMode-report: "text:A%20ajustar%20o%20registo%20de%20cor...%20Aguarde%20alguns%20minutos."
+*zh_CN.cupsIPPReason com.samsung.AcrMode-report: "text:正在调整色彩配准...%20请等待数分钟。"
+*zh_TW.cupsIPPReason com.samsung.AcrMode-report: "text:正在調整色彩登錄...%20請等待幾分鐘。"
+
+
+*cupsIPPReason com.samsung.Warmingup-report: "text:Warming%20up...%20Please%20wait%20few%20minutes."
+*de.cupsIPPReason com.samsung.Warmingup-report: "text:Aufwärmphase...%20Dies%20kann%20einige%20Minuten%20dauern."
+*es.cupsIPPReason com.samsung.Warmingup-report: "text:Preparándose...%20Espere%20unos%20minutos."
+*fr.cupsIPPReason com.samsung.Warmingup-report: "text:Préchauffage%20en%20cours...%20Veuillez%20patienter%20quelques%20minutes."
+*it.cupsIPPReason com.samsung.Warmingup-report: "text:Riscaldamento...%20Attendere%20qualche%20minuto."
+*nl.cupsIPPReason com.samsung.Warmingup-report: "text:Bezig%20met%20opwarmen...%20Enkele%20minuten%20geduld."
+*ko.cupsIPPReason com.samsung.Warmingup-report: "text:준비%20중입니다...%20잠시만%20기다려%20주세요."
+*pt.cupsIPPReason com.samsung.Warmingup-report: "text:A%20aquecer...%20Aguarde%20alguns%20minutos."
+*zh_CN.cupsIPPReason com.samsung.Warmingup-report: "text:正在预热...%20请等待数分钟。"
+*zh_TW.cupsIPPReason com.samsung.Warmingup-report: "text:暖機中...%20請等待幾分鐘。"
+
+
+*cupsIPPReason com.samsung.Processing-report: "text:Processing"
+*de.cupsIPPReason com.samsung.Processing-report: "text:n Bearbeitung"
+*es.cupsIPPReason com.samsung.Processing-report: "text:Procesando"
+*fr.cupsIPPReason com.samsung.Processing-report: "text:Traitement en cours"
+*it.cupsIPPReason com.samsung.Processing-report: "text:Elaborazione in corso"
+*nl.cupsIPPReason com.samsung.Processing-report: "text:Bezig met verwerken"
+*ko.cupsIPPReason com.samsung.Processing-report: "text:처리중"
+*pt.cupsIPPReason com.samsung.Processing-report: "text:A processar"
+*zh_CN.cupsIPPReason com.samsung.Processing-report: "text:处理中"
+*zh_TW.cupsIPPReason com.samsung.Processing-report: "text:處理中"
+
+*cupsIPPReason com.samsung.General-report: "text:Refer%20SmartPanel%20for%20detailed%20printer%20status%20and%20trouble%20shooting%20guides.%28Utility,%20Printer%20Setup>Utility>Open%20Printer%20Utility%29"
+*de.cupsIPPReason com.samsung.General-report: "text:Entnehmen%20Sie%20die%20Details%20zum%20Druckerstatus%20und%20Anleitungen%20zur%20Problemlösung%20aus%20dem%20SmartPanel.
+text:%28Sonstiges,%20Drucker%20konfigurieren>Sonstiges>Drucker-Dienstprogramm%20öffnen%29"
+*es.cupsIPPReason com.samsung.General-report: "text:Consulte%20SmartPanel%20para%20obtener%20información%20detallada%20sobre%20el%20estado%20de%20la%20impresora%20y%20para%20obtener%20guías%20de%20solución%20de%20problemas.
+text:%28Utilidad,%20Configuración%20de%20impresora>Utilidad>Abrir%20Utilidad%20Impresoras%29"
+*fr.cupsIPPReason com.samsung.General-report: "text:Reportez-vous%20à%20SmartPanel%20pour%20obtenir%20des%20informations%20détaillées%20concernant%20les%20guides%20d’état%20de%20l’imprimante%20et%20de%20dépannage.
+text:%28Utilitaire,%20Configuration%20d’imprimante>Utilitaire>Ouvrir%20l’utilitaire%20de%20l’imprimante%29"
+*it.cupsIPPReason com.samsung.General-report: "text:Per%20ulteriori%20informazioni%20sullo%20stato%20della%20stampante%20e%20sulla%20risoluzione%20dei%20problemi,%20fare%20riferimento%20a%20SmartPanel.
+text:%28Utility,%20Configurazione%20stampante>Utility>Apri%20Utility%20Stampante%29"
+*nl.cupsIPPReason com.samsung.General-report: "text:Zie%20SmartPanel%20voor%20gedetailleerde%20informatie%20over%20de%20printerstatus%20en%20probleemoplossingsgidsen.%28Onderhoud,%20Printerconfiguratie>Onderhoud>Open%20Printerhulpprogramma%29"
+*ko.cupsIPPReason com.samsung.General-report: "text:자세한%20프린터%20정보와%20문제%20해결%20가이드는%20스마트%20패널을%20참조하세요.%20%28유틸리티,%20프린터%20설정>유틸리티>프린터%20유틸리티%20열기%29"
+*pt.cupsIPPReason com.samsung.General-report: "text:Pode%20conferir%20o%20estado%20detalhado%20da%20impressora%20e%20aceder%20a%20guias%20de%20resolução%20de%20problemas%20no%20SmartPanel.
+text:%28Utilitário,%20Configuração%20de%20Impressora>Utilitário>Abrir%20o%20Utilitário%20de%20Impressão%29"
+*zh_CN.cupsIPPReason com.samsung.General-report: "text:有关详细的打印机状态和故障排除指南，请参考%20SmartPanel。%28实用工具,%20打印机设置>实用工具>打开打印机实用工具%29"
+*zh_TW.cupsIPPReason com.samsung.General-report: "text:如需詳細的印表機狀態與疑難排解指南，請參考%20SmartPanel。%28工具程式,%20印表機設定>工具程式>打開印表機工具程式%29"
+
+*cupsIPPReason com.samsung.General-error: "text:Refer%20SmartPanel%20for%20detailed%20printer%20status%20and%20trouble%20shooting%20guides.%28Utility,%20Printer%20Setup>Utility>Open%20Printer%20Utility%29"
+*de.cupsIPPReason com.samsung.General-error: "text:Entnehmen%20Sie%20die%20Details%20zum%20Druckerstatus%20und%20Anleitungen%20zur%20Problemlösung%20aus%20dem%20SmartPanel.
+text:%28Sonstiges,%20Drucker%20konfigurieren>Sonstiges>Drucker-Dienstprogramm%20öffnen%29"
+*es.cupsIPPReason com.samsung.General-error: "text:Consulte%20SmartPanel%20para%20obtener%20información%20detallada%20sobre%20el%20estado%20de%20la%20impresora%20y%20para%20obtener%20guías%20de%20solución%20de%20problemas.
+text:%28Utilidad,%20Configuración%20de%20impresora>Utilidad>Abrir%20Utilidad%20Impresoras%29"
+*fr.cupsIPPReason com.samsung.General-error: "text:Reportez-vous%20à%20SmartPanel%20pour%20obtenir%20des%20informations%20détaillées%20concernant%20les%20guides%20d’état%20de%20l’imprimante%20et%20de%20dépannage.
+text:%28Utilitaire,%20Configuration%20d’imprimante>Utilitaire>Ouvrir%20l’utilitaire%20de%20l’imprimante%29"
+*it.cupsIPPReason com.samsung.General-error: "text:Per%20ulteriori%20informazioni%20sullo%20stato%20della%20stampante%20e%20sulla%20risoluzione%20dei%20problemi,%20fare%20riferimento%20a%20SmartPanel.
+text:%28Utility,%20Configurazione%20stampante>Utility>Apri%20Utility%20Stampante%29"
+*nl.cupsIPPReason com.samsung.General-error: "text:Zie%20SmartPanel%20voor%20gedetailleerde%20informatie%20over%20de%20printerstatus%20en%20probleemoplossingsgidsen.%28Onderhoud,%20Printerconfiguratie>Onderhoud>Open%20Printerhulpprogramma%29"
+*ko.cupsIPPReason com.samsung.General-error: "text:자세한%20프린터%20정보와%20문제%20해결%20가이드는%20스마트%20패널을%20참조하세요.%20%28유틸리티,%20프린터%20설정>유틸리티>프린터%20유틸리티%20열기%29"
+*pt.cupsIPPReason com.samsung.General-error: "text:Pode%20conferir%20o%20estado%20detalhado%20da%20impressora%20e%20aceder%20a%20guias%20de%20resolução%20de%20problemas%20no%20SmartPanel.
+text:%28Utilitário,%20Configuração%20de%20Impressora>Utilitário>Abrir%20o%20Utilitário%20de%20Impressão%29"
+*zh_CN.cupsIPPReason com.samsung.General-error: "text:有关详细的打印机状态和故障排除指南，请参考%20SmartPanel。%28实用工具,%20打印机设置>实用工具>打开打印机实用工具%29"
+*zh_TW.cupsIPPReason com.samsung.General-error: "text:如需詳細的印表機狀態與疑難排解指南，請參考%20SmartPanel。%28工具程式,%20印表機設定>工具程式>打開印表機工具程式%29"
+
+
+*cupsIPPReason com.samsung.General-warning: "text:Refer%20SmartPanel%20for%20detailed%20printer%20status%20and%20trouble%20shooting%20guides.%28Utility,%20Printer%20Setup>Utility>Open%20Printer%20Utility%29"
+*de.cupsIPPReason com.samsung.General-warning: "text:Entnehmen%20Sie%20die%20Details%20zum%20Druckerstatus%20und%20Anleitungen%20zur%20Problemlösung%20aus%20dem%20SmartPanel.
+text:%28Sonstiges,%20Drucker%20konfigurieren>Sonstiges>Drucker-Dienstprogramm%20öffnen%29"
+*es.cupsIPPReason com.samsung.General-warning: "text:Consulte%20SmartPanel%20para%20obtener%20información%20detallada%20sobre%20el%20estado%20de%20la%20impresora%20y%20para%20obtener%20guías%20de%20solución%20de%20problemas.
+text:%28Utilidad,%20Configuración%20de%20impresora>Utilidad>Abrir%20Utilidad%20Impresoras%29"
+*fr.cupsIPPReason com.samsung.General-warning: "text:Reportez-vous%20à%20SmartPanel%20pour%20obtenir%20des%20informations%20détaillées%20concernant%20les%20guides%20d’état%20de%20l’imprimante%20et%20de%20dépannage.
+text:%28Utilitaire,%20Configuration%20d’imprimante>Utilitaire>Ouvrir%20l’utilitaire%20de%20l’imprimante%29"
+*it.cupsIPPReason com.samsung.General-warning: "text:Per%20ulteriori%20informazioni%20sullo%20stato%20della%20stampante%20e%20sulla%20risoluzione%20dei%20problemi,%20fare%20riferimento%20a%20SmartPanel.
+text:%28Utility,%20Configurazione%20stampante>Utility>Apri%20Utility%20Stampante%29"
+*nl.cupsIPPReason com.samsung.General-warning: "text:Zie%20SmartPanel%20voor%20gedetailleerde%20informatie%20over%20de%20printerstatus%20en%20probleemoplossingsgidsen.%28Onderhoud,%20Printerconfiguratie>Onderhoud>Open%20Printerhulpprogramma%29"
+*ko.cupsIPPReason com.samsung.General-warning: "text:자세한%20프린터%20정보와%20문제%20해결%20가이드는%20스마트%20패널을%20참조하세요.%20%28유틸리티,%20프린터%20설정>유틸리티>프린터%20유틸리티%20열기%29"
+*pt.cupsIPPReason com.samsung.General-warning: "text:Pode%20conferir%20o%20estado%20detalhado%20da%20impressora%20e%20aceder%20a%20guias%20de%20resolução%20de%20problemas%20no%20SmartPanel.
+text:%28Utilitário,%20Configuração%20de%20Impressora>Utilitário>Abrir%20o%20Utilitário%20de%20Impressão%29"
+*zh_CN.cupsIPPReason com.samsung.General-warning: "text:有关详细的打印机状态和故障排除指南，请参考%20SmartPanel。%28实用工具,%20打印机设置>实用工具>打开打印机实用工具%29"
+*zh_TW.cupsIPPReason com.samsung.General-warning: "text:如需詳細的印表機狀態與疑難排解指南，請參考%20SmartPanel。%28工具程式,%20印表機設定>工具程式>打開印表機工具程式%29"
+
+
+*% =========================================================
+*%  User Interface Constraints
+*% =========================================================
+*% =======================================================================================
+*% PageSize - MediaType
+*% =======================================================================================
+*UIConstraints: *PageSize Letter	*MediaType Envelope
+
+*UIConstraints: *PageSize Legal		*MediaType Envelope
+*UIConstraints: *PageSize Legal		*MediaType Transparency
+
+*UIConstraints: *PageSize Oficio	*MediaType Envelope
+*UIConstraints: *PageSize Oficio	*MediaType Transparency
+
+*UIConstraints: *PageSize US-Folio	*MediaType Envelope
+*UIConstraints: *PageSize US-Folio	*MediaType Transparency
+
+*UIConstraints: *PageSize A4		*MediaType Envelope
+
+*UIConstraints: *PageSize B5-JIS	*MediaType Envelope
+*UIConstraints: *PageSize B5-JIS	*MediaType Transparency
+
+*UIConstraints: *PageSize B5-ISO	*MediaType Envelope
+*UIConstraints: *PageSize B5-ISO	*MediaType Transparency
+
+*UIConstraints: *PageSize Executive	*MediaType Envelope
+*UIConstraints: *PageSize Executive	*MediaType Transparency
+
+*UIConstraints: *PageSize A5		*MediaType Envelope
+*UIConstraints: *PageSize A5		*MediaType Transparency
+
+
+
+*UIConstraints: *PageSize EnvMonarch	*MediaType Default
+*UIConstraints: *PageSize EnvMonarch	*MediaType Plain
+*UIConstraints: *PageSize EnvMonarch	*MediaType Thick
+*UIConstraints: *PageSize EnvMonarch	*MediaType Thin
+*UIConstraints: *PageSize EnvMonarch	*MediaType Bond
+*UIConstraints: *PageSize EnvMonarch	*MediaType Colored
+*UIConstraints: *PageSize EnvMonarch	*MediaType Card
+*UIConstraints: *PageSize EnvMonarch	*MediaType Label
+*UIConstraints: *PageSize EnvMonarch	*MediaType Transparency
+*UIConstraints: *PageSize EnvMonarch	*MediaType Preprinted
+*UIConstraints: *PageSize EnvMonarch	*MediaType Recycled
+*UIConstraints: *PageSize EnvMonarch	*MediaType Cotton
+*UIConstraints: *PageSize EnvMonarch	*MediaType Archive
+
+*UIConstraints: *PageSize EnvDL		*MediaType Default
+*UIConstraints: *PageSize EnvDL		*MediaType Plain
+*UIConstraints: *PageSize EnvDL		*MediaType Thick
+*UIConstraints: *PageSize EnvDL		*MediaType Thin
+*UIConstraints: *PageSize EnvDL		*MediaType Bond
+*UIConstraints: *PageSize EnvDL		*MediaType Colored
+*UIConstraints: *PageSize EnvDL		*MediaType Card
+*UIConstraints: *PageSize EnvDL		*MediaType Label
+*UIConstraints: *PageSize EnvDL		*MediaType Transparency
+*UIConstraints: *PageSize EnvDL		*MediaType Preprinted
+*UIConstraints: *PageSize EnvDL		*MediaType Recycled
+*UIConstraints: *PageSize EnvDL		*MediaType Cotton
+*UIConstraints: *PageSize EnvDL		*MediaType Archive
+
+*UIConstraints: *PageSize EnvC5		*MediaType Default
+*UIConstraints: *PageSize EnvC5		*MediaType Plain
+*UIConstraints: *PageSize EnvC5		*MediaType Thick
+*UIConstraints: *PageSize EnvC5		*MediaType Thin
+*UIConstraints: *PageSize EnvC5		*MediaType Bond
+*UIConstraints: *PageSize EnvC5		*MediaType Colored
+*UIConstraints: *PageSize EnvC5		*MediaType Card
+*UIConstraints: *PageSize EnvC5		*MediaType Label
+*UIConstraints: *PageSize EnvC5		*MediaType Transparency
+*UIConstraints: *PageSize EnvC5		*MediaType Preprinted
+*UIConstraints: *PageSize EnvC5		*MediaType Recycled
+*UIConstraints: *PageSize EnvC5		*MediaType Cotton
+*UIConstraints: *PageSize EnvC5		*MediaType Archive
+
+
+*UIConstraints: *PageSize Env10		*MediaType Default
+*UIConstraints: *PageSize Env10		*MediaType Plain
+*UIConstraints: *PageSize Env10		*MediaType Thick
+*UIConstraints: *PageSize Env10		*MediaType Thin
+*UIConstraints: *PageSize Env10		*MediaType Bond
+*UIConstraints: *PageSize Env10		*MediaType Colored
+*UIConstraints: *PageSize Env10		*MediaType Card
+*UIConstraints: *PageSize Env10		*MediaType Label
+*UIConstraints: *PageSize Env10		*MediaType Transparency
+*UIConstraints: *PageSize Env10		*MediaType Preprinted
+*UIConstraints: *PageSize Env10		*MediaType Recycled
+*UIConstraints: *PageSize Env10		*MediaType Cotton
+*UIConstraints: *PageSize Env10		*MediaType Archive
+
+
+
+*% =======================================================================================
+*%  PageRegion - MediaType
+*% =======================================================================================
+*UIConstraints: *PageRegion Letter	*MediaType Envelope
+
+*UIConstraints: *PageRegion Legal	*MediaType Envelope
+*UIConstraints: *PageRegion Legal	*MediaType Transparency
+
+*UIConstraints: *PageRegion Oficio	*MediaType Envelope
+*UIConstraints: *PageRegion Oficio	*MediaType Transparency
+
+*UIConstraints: *PageRegion US-Folio	*MediaType Envelope
+*UIConstraints: *PageRegion US-Folio	*MediaType Transparency
+
+*UIConstraints: *PageRegion A4		*MediaType Envelope
+
+*UIConstraints: *PageRegion B5-JIS	*MediaType Envelope
+*UIConstraints: *PageRegion B5-JIS	*MediaType Transparency
+
+*UIConstraints: *PageRegion B5-ISO	*MediaType Envelope
+*UIConstraints: *PageRegion B5-ISO	*MediaType Transparency
+
+*UIConstraints: *PageRegion Executive	*MediaType Envelope
+*UIConstraints: *PageRegion Executive	*MediaType Transparency
+
+*UIConstraints: *PageRegion A5		*MediaType Envelope
+*UIConstraints: *PageRegion A5		*MediaType Transparency
+
+*UIConstraints: *PageRegion EnvMonarch	*MediaType Default
+*UIConstraints: *PageRegion EnvMonarch	*MediaType Plain
+*UIConstraints: *PageRegion EnvMonarch	*MediaType Thick
+*UIConstraints: *PageRegion EnvMonarch	*MediaType Thin
+*UIConstraints: *PageRegion EnvMonarch	*MediaType Bond
+*UIConstraints: *PageRegion EnvMonarch	*MediaType Colored
+*UIConstraints: *PageRegion EnvMonarch	*MediaType Card
+*UIConstraints: *PageRegion EnvMonarch	*MediaType Label
+*UIConstraints: *PageRegion EnvMonarch	*MediaType Transparency
+*UIConstraints: *PageRegion EnvMonarch	*MediaType Preprinted
+*UIConstraints: *PageRegion EnvMonarch	*MediaType Recycled
+*UIConstraints: *PageRegion EnvMonarch	*MediaType Cotton
+*UIConstraints: *PageRegion EnvMonarch	*MediaType Archive
+
+*UIConstraints: *PageRegion EnvDL	*MediaType Default
+*UIConstraints: *PageRegion EnvDL	*MediaType Plain
+*UIConstraints: *PageRegion EnvDL	*MediaType Thick
+*UIConstraints: *PageRegion EnvDL	*MediaType Thin
+*UIConstraints: *PageRegion EnvDL	*MediaType Bond
+*UIConstraints: *PageRegion EnvDL	*MediaType Colored
+*UIConstraints: *PageRegion EnvDL	*MediaType Card
+*UIConstraints: *PageRegion EnvDL	*MediaType Label
+*UIConstraints: *PageRegion EnvDL	*MediaType Transparency
+*UIConstraints: *PageRegion EnvDL	*MediaType Preprinted
+*UIConstraints: *PageRegion EnvDL	*MediaType Recycled
+*UIConstraints: *PageRegion EnvDL	*MediaType Cotton
+*UIConstraints: *PageRegion EnvDL	*MediaType Archive
+
+*UIConstraints: *PageRegion EnvC5	*MediaType Default
+*UIConstraints: *PageRegion EnvC5	*MediaType Plain
+*UIConstraints: *PageRegion EnvC5	*MediaType Thick
+*UIConstraints: *PageRegion EnvC5	*MediaType Thin
+*UIConstraints: *PageRegion EnvC5	*MediaType Bond
+*UIConstraints: *PageRegion EnvC5	*MediaType Colored
+*UIConstraints: *PageRegion EnvC5	*MediaType Card
+*UIConstraints: *PageRegion EnvC5	*MediaType Label
+*UIConstraints: *PageRegion EnvC5	*MediaType Transparency
+*UIConstraints: *PageRegion EnvC5	*MediaType Preprinted
+*UIConstraints: *PageRegion EnvC5	*MediaType Recycled
+*UIConstraints: *PageRegion EnvC5	*MediaType Cotton
+*UIConstraints: *PageRegion EnvC5	*MediaType Archive
+
+
+*UIConstraints: *PageRegion Env10	*MediaType Default
+*UIConstraints: *PageRegion Env10	*MediaType Plain
+*UIConstraints: *PageRegion Env10	*MediaType Thick
+*UIConstraints: *PageRegion Env10	*MediaType Thin
+*UIConstraints: *PageRegion Env10	*MediaType Bond
+*UIConstraints: *PageRegion Env10	*MediaType Colored
+*UIConstraints: *PageRegion Env10	*MediaType Card
+*UIConstraints: *PageRegion Env10	*MediaType Label
+*UIConstraints: *PageRegion Env10	*MediaType Transparency
+*UIConstraints: *PageRegion Env10	*MediaType Preprinted
+*UIConstraints: *PageRegion Env10	*MediaType Recycled
+*UIConstraints: *PageRegion Env10	*MediaType Cotton
+*UIConstraints: *PageRegion Env10	*MediaType Archive
+
+
+*DefaultFont: Courier
+*Font AvantGarde-Book: Standard "(001.006S)" Standard ROM
+*Font AvantGarde-BookOblique: Standard "(001.006S)" Standard ROM
+*Font AvantGarde-Demi: Standard "(001.007S)" Standard ROM
+*Font AvantGarde-DemiOblique: Standard "(001.007S)" Standard ROM
+*Font Bookman-Demi: Standard "(001.004S)" Standard ROM
+*Font Bookman-DemiItalic: Standard "(001.004S)" Standard ROM
+*Font Bookman-Light: Standard "(001.004S)" Standard ROM
+*Font Bookman-LightItalic: Standard "(001.004S)" Standard ROM
+*Font Courier: Standard "(002.004S)" Standard ROM
+*Font Courier-Bold: Standard "(002.004S)" Standard ROM
+*Font Courier-BoldOblique: Standard "(002.004S)" Standard ROM
+*Font Courier-Oblique: Standard "(002.004S)" Standard ROM
+*Font Helvetica: Standard "(001.006S)" Standard ROM
+*Font Helvetica-Bold: Standard "(001.007S)" Standard ROM
+*Font Helvetica-BoldOblique: Standard "(001.007S)" Standard ROM
+*Font Helvetica-Narrow: Standard "(001.006S)" Standard ROM
+*Font Helvetica-Narrow-Bold: Standard "(001.007S)" Standard ROM
+*Font Helvetica-Narrow-BoldOblique: Standard "(001.007S)" Standard ROM
+*Font Helvetica-Narrow-Oblique: Standard "(001.006S)" Standard ROM
+*Font Helvetica-Oblique: Standard "(001.006S)" Standard ROM
+*Font NewCenturySchlbk-Bold: Standard "(001.009S)" Standard ROM
+*Font NewCenturySchlbk-BoldItalic: Standard "(001.007S)" Standard ROM
+*Font NewCenturySchlbk-Italic: Standard "(001.006S)" Standard ROM
+*Font NewCenturySchlbk-Roman: Standard "(001.007S)" Standard ROM
+*Font Palatino-Bold: Standard "(001.005S)" Standard ROM
+*Font Palatino-BoldItalic: Standard "(001.005S)" Standard ROM
+*Font Palatino-Italic: Standard "(001.005S)" Standard ROM
+*Font Palatino-Roman: Standard "(001.005S)" Standard ROM
+*Font Symbol: Special "(001.007S)" Special ROM
+*Font Times-Bold: Standard "(001.007S)" Standard ROM
+*Font Times-BoldItalic: Standard "(001.009S)" Standard ROM
+*Font Times-Italic: Standard "(001.007S)" Standard ROM
+*Font Times-Roman: Standard "(001.007S)" Standard ROM
+*Font ZapfChancery-MediumItalic: Standard "(001.007S)" Standard ROM
+*Font ZapfDingbats: Special "(001.004S)" Standard ROM
+*%
+*% End of "$Id: stcolor.ppd,v 1.8 2002/12/17 19:00:10 swdev Exp $".
+*%
+*% Spanish localization
+*es.Translation ModelName/Samsung ML-1670 Series: ""
+*es.Translation InstallableOptions/Opciones instaladas: ""
+*es.Translation AltitudeOption/Ajuste de altitud: ""
+*es.AltitudeOption Normal/Normal: ""
+*es.AltitudeOption High1/Alto 1: ""
+*es.AltitudeOption High2/Alto 2: ""
+*es.AltitudeOption High3/Alto 3: ""
+*es.Translation TonerSaving/Modo Ahorro: ""
+*es.TonerSaving PrinterSetting/Configuración de la impresora: ""
+*es.TonerSaving On/Activado: ""
+*es.TonerSaving Off/Desactivado: ""
+*es.Translation General/General: ""
+*es.Translation PowerSave/Ahorro de energía: ""
+*es.PowerSave Off/Desactivado: ""
+*es.PowerSave On/Activado: ""
+*es.Translation PowerSaveTime/Retraso temporal: ""
+*es.PowerSaveTime 1min/1 minutos: ""
+*es.PowerSaveTime 5min/5 minutos: ""
+*es.PowerSaveTime 10min/10 minutos: ""
+*es.PowerSaveTime 15min/15 minutos: ""
+*es.PowerSaveTime 20min/20 minutos: ""
+*es.PowerSaveTime 30min/30 minutos: ""
+*es.PowerSaveTime 45min/45 minutos: ""
+*es.PowerSaveTime 60min/60 minutos: ""
+*es.PowerSaveTime 120min/120 minutos: ""
+*es.Translation Darkness/Oscuridad: ""
+*es.Darkness Normal/Normal: ""
+*es.Darkness Light/Claro: ""
+*es.Darkness Dark/Oscuro: ""
+*es.Translation PageSize/Page Size: ""
+*es.PageSize Letter/Carta: ""
+*es.PageSize Legal/Legal: ""
+*es.PageSize Executive/Ejecutivo: ""
+*es.PageSize A4/A4: ""
+*es.PageSize A5/A5: ""
+*es.PageSize B5-JIS/JIS B5: ""
+*es.PageSize US-Folio/Folio: ""
+*es.PageSize Env10/Sobre No.10: ""
+*es.PageSize EnvDL/Sobre DL: ""
+*es.PageSize EnvC5/Sobre C5: ""
+*es.PageSize B5-ISO/ISO B5: ""
+*es.PageSize EnvMonarch/S. Monarca: ""
+*es.PageSize Oficio/Oficio: ""
+*es.PageSize Custom/Custom: ""
+*es.Translation PageRegion/PageRegion: ""
+*es.PageRegion Letter/Letter: ""
+*es.PageRegion Legal/Legal: ""
+*es.PageRegion Executive/Executive: ""
+*es.PageRegion A4/A4: ""
+*es.PageRegion A5/A5: ""
+*es.PageRegion B5-JIS/JIS B5: ""
+*es.PageRegion US-Folio/US Folio: ""
+*es.PageRegion Env10/No. 10 Env.: ""
+*es.PageRegion EnvDL/DL Env.: ""
+*es.PageRegion EnvC5/C5 Env.: ""
+*es.PageRegion B5-ISO/ISO B5: ""
+*es.PageRegion EnvMonarch/Monarch Env.: ""
+*es.PageRegion Oficio/Oficio: ""
+*es.PageRegion Custom/Custom: ""
+*es.Translation InputSlot/Origen del papel: ""
+*es.InputSlot Auto/Selección automática de impresora: ""
+*es.InputSlot Manual/Alimentación manual: ""
+*es.Translation MediaType/Tipo de papel: ""
+*es.MediaType Default/Impresora predeterminada: ""
+*es.MediaType Plain/Papel normal: ""
+*es.MediaType Thick/Grueso: ""
+*es.MediaType Thin/Fino: ""
+*es.MediaType Bond/Bond: ""
+*es.MediaType Colored/Papel de color: ""
+*es.MediaType Card/Tarjetas: ""
+*es.MediaType Label/Etiquetas: ""
+*es.MediaType Transparency/Transparencia: ""
+*es.MediaType Envelope/Sobres: ""
+*es.MediaType Preprinted/Preimpreso: ""
+*es.MediaType Recycled/Reciclado: ""
+*es.MediaType Cotton/Algodón: ""
+*es.MediaType Archive/Papel archivo: ""
+*es.Translation SECResolution/Calidad: ""
+*es.SECResolution Best/Perfecta: ""
+*es.SECResolution Normal/Normal: ""
+*es.Translation ColorModel/Modo de color: ""
+*es.ColorModel Gray/Escala de grises: ""
+*es.Translation id_FineEdge/Resolución del contorno: ""
+*es.id_FineEdge On/Activado: ""
+*es.id_FineEdge Off/Desactivado: ""
+*% Italian localization
+*it.Translation ModelName/Samsung ML-1670 Series: ""
+*it.Translation InstallableOptions/Installed Options: ""
+*it.Translation AltitudeOption/Regolazione altitudine: ""
+*it.AltitudeOption Normal/Normale: ""
+*it.AltitudeOption High1/Alta 1: ""
+*it.AltitudeOption High2/Alta 2: ""
+*it.AltitudeOption High3/Alta 3: ""
+*it.Translation TonerSaving/Risparmio toner: ""
+*it.TonerSaving PrinterSetting/Impostazione stampante: ""
+*it.TonerSaving On/Attivato: ""
+*it.TonerSaving Off/Disattivato: ""
+*it.Translation General/General: ""
+*it.Translation PowerSave/Risparmio energetico: ""
+*it.PowerSave Off/Disattivato: ""
+*it.PowerSave On/Attivato: ""
+*it.Translation PowerSaveTime/Attesa: ""
+*it.PowerSaveTime 1min/1 minuti: ""
+*it.PowerSaveTime 5min/5 minuti: ""
+*it.PowerSaveTime 10min/10 minuti: ""
+*it.PowerSaveTime 15min/15 minuti: ""
+*it.PowerSaveTime 20min/20 minuti: ""
+*it.PowerSaveTime 30min/30 minuti: ""
+*it.PowerSaveTime 45min/45 minuti: ""
+*it.PowerSaveTime 60min/60 minuti: ""
+*it.PowerSaveTime 120min/120 minuti: ""
+*it.Translation Darkness/Scurezza: ""
+*it.Darkness Normal/Normale: ""
+*it.Darkness Light/Chiaro: ""
+*it.Darkness Dark/Scuro: ""
+*it.Translation PageSize/Page Size: ""
+*it.PageSize Letter/Lettera: ""
+*it.PageSize Legal/Legale: ""
+*it.PageSize Executive/Executive: ""
+*it.PageSize A4/A4: ""
+*it.PageSize A5/A5: ""
+*it.PageSize B5-JIS/JIS B5: ""
+*it.PageSize US-Folio/Folio USA: ""
+*it.PageSize Env10/Busta N.10: ""
+*it.PageSize EnvDL/Busta DL: ""
+*it.PageSize EnvC5/Busta C5: ""
+*it.PageSize B5-ISO/ISO B5: ""
+*it.PageSize EnvMonarch/Busta Monarch: ""
+*it.PageSize Oficio/Oficio: ""
+*it.PageSize Custom/Custom: ""
+*it.Translation PageRegion/PageRegion: ""
+*it.PageRegion Letter/Letter: ""
+*it.PageRegion Legal/Legal: ""
+*it.PageRegion Executive/Executive: ""
+*it.PageRegion A4/A4: ""
+*it.PageRegion A5/A5: ""
+*it.PageRegion B5-JIS/JIS B5: ""
+*it.PageRegion US-Folio/US Folio: ""
+*it.PageRegion Env10/No. 10 Env.: ""
+*it.PageRegion EnvDL/DL Env.: ""
+*it.PageRegion EnvC5/C5 Env.: ""
+*it.PageRegion B5-ISO/ISO B5: ""
+*it.PageRegion EnvMonarch/Monarch Env.: ""
+*it.PageRegion Oficio/Oficio: ""
+*it.PageRegion Custom/Custom: ""
+*it.Translation InputSlot/Alimentazione: ""
+*it.InputSlot Auto/Selezione automatica stampante: ""
+*it.InputSlot Manual/Alimentazione manuale: ""
+*it.Translation MediaType/Tipo carta: ""
+*it.MediaType Default/Predefinito stampante: ""
+*it.MediaType Plain/Carta normale: ""
+*it.MediaType Thick/Spessa: ""
+*it.MediaType Thin/Sottile: ""
+*it.MediaType Bond/Carta laser: ""
+*it.MediaType Colored/Carta colorata: ""
+*it.MediaType Card/Cartoncini: ""
+*it.MediaType Label/Etichette: ""
+*it.MediaType Transparency/Lucidi: ""
+*it.MediaType Envelope/Buste: ""
+*it.MediaType Preprinted/Prestampata: ""
+*it.MediaType Recycled/Riciclata: ""
+*it.MediaType Cotton/Cotonata: ""
+*it.MediaType Archive/Carta archivio: ""
+*it.Translation SECResolution/Qualità: ""
+*it.SECResolution Best/Migliore: ""
+*it.SECResolution Normal/Normale: ""
+*it.Translation ColorModel/Modalità colori: ""
+*it.ColorModel Gray/Scala di grigi: ""
+*it.Translation id_FineEdge/Bordo definito: ""
+*it.id_FineEdge On/Attivato: ""
+*it.id_FineEdge Off/Disattivato: ""
+*% Dutch localization
+*nl.Translation ModelName/Samsung ML-1670 Series: ""
+*nl.Translation InstallableOptions/Geïnstalleerde opties: ""
+*nl.Translation AltitudeOption/Luchtdrukaanpassing: ""
+*nl.AltitudeOption Normal/Normaal: ""
+*nl.AltitudeOption High1/Hoog 1: ""
+*nl.AltitudeOption High2/Hoog 2: ""
+*nl.AltitudeOption High3/Hoog 3: ""
+*nl.Translation TonerSaving/Tonerspaarstand: ""
+*nl.TonerSaving PrinterSetting/Printerinstelling: ""
+*nl.TonerSaving On/Aan: ""
+*nl.TonerSaving Off/Uit: ""
+*nl.Translation General/General: ""
+*nl.Translation PowerSave/Energiespaarstand: ""
+*nl.PowerSave Off/Uit: ""
+*nl.PowerSave On/Aan: ""
+*nl.Translation PowerSaveTime/Vertraging: ""
+*nl.PowerSaveTime 1min/1 minuten: ""
+*nl.PowerSaveTime 5min/5 minuten: ""
+*nl.PowerSaveTime 10min/10 minuten: ""
+*nl.PowerSaveTime 15min/15 minuten: ""
+*nl.PowerSaveTime 20min/20 minuten: ""
+*nl.PowerSaveTime 30min/30 minuten: ""
+*nl.PowerSaveTime 45min/45 minuten: ""
+*nl.PowerSaveTime 60min/60 minuten: ""
+*nl.PowerSaveTime 120min/120 minuten: ""
+*nl.Translation Darkness/Tonerdichtheid: ""
+*nl.Darkness Normal/Normaal: ""
+*nl.Darkness Light/Licht: ""
+*nl.Darkness Dark/Donker: ""
+*nl.Translation PageSize/Page Size: ""
+*nl.PageSize Letter/Letter: ""
+*nl.PageSize Legal/Legal: ""
+*nl.PageSize Executive/Executive: ""
+*nl.PageSize A4/A4: ""
+*nl.PageSize A5/A5: ""
+*nl.PageSize B5-JIS/JIS B5: ""
+*nl.PageSize US-Folio/US Folio: ""
+*nl.PageSize Env10/Env. nr.10: ""
+*nl.PageSize EnvDL/Envelop DL: ""
+*nl.PageSize EnvC5/Envelop C5: ""
+*nl.PageSize B5-ISO/ISO B5: ""
+*nl.PageSize EnvMonarch/Monarch-env.: ""
+*nl.PageSize Oficio/Oficio: ""
+*nl.PageSize Custom/Custom: ""
+*nl.Translation PageRegion/PageRegion: ""
+*nl.PageRegion Letter/Letter: ""
+*nl.PageRegion Legal/Legal: ""
+*nl.PageRegion Executive/Executive: ""
+*nl.PageRegion A4/A4: ""
+*nl.PageRegion A5/A5: ""
+*nl.PageRegion B5-JIS/JIS B5: ""
+*nl.PageRegion US-Folio/US Folio: ""
+*nl.PageRegion Env10/No. 10 Env.: ""
+*nl.PageRegion EnvDL/DL Env.: ""
+*nl.PageRegion EnvC5/C5 Env.: ""
+*nl.PageRegion B5-ISO/ISO B5: ""
+*nl.PageRegion EnvMonarch/Monarch Env.: ""
+*nl.PageRegion Oficio/Oficio: ""
+*nl.PageRegion Custom/Custom: ""
+*nl.Translation InputSlot/Papierinvoer: ""
+*nl.InputSlot Auto/Automatische printerkeuze: ""
+*nl.InputSlot Manual/Handmatige invoer: ""
+*nl.Translation MediaType/Type papier: ""
+*nl.MediaType Default/Standaardinstelling printer: ""
+*nl.MediaType Plain/Normaal papier: ""
+*nl.MediaType Thick/Dik papier: ""
+*nl.MediaType Thin/Dun papier: ""
+*nl.MediaType Bond/Bankpost: ""
+*nl.MediaType Colored/Color: ""
+*nl.MediaType Card/Kaarten: ""
+*nl.MediaType Label/Etiketten: ""
+*nl.MediaType Transparency/Transparanten: ""
+*nl.MediaType Envelope/Envelop: ""
+*nl.MediaType Preprinted/Voorbedrukt: ""
+*nl.MediaType Recycled/Kringlooppapier: ""
+*nl.MediaType Cotton/Katoen: ""
+*nl.MediaType Archive/Archiefpapier: ""
+*nl.Translation SECResolution/Kwaliteit: ""
+*nl.SECResolution Best/Best: ""
+*nl.SECResolution Normal/Normaal: ""
+*nl.Translation ColorModel/Kleurenmodus: ""
+*nl.ColorModel Gray/Grijstinten: ""
+*nl.Translation id_FineEdge/Fijne randen: ""
+*nl.id_FineEdge On/Aan: ""
+*nl.id_FineEdge Off/Uit: ""
+*% French localization
+*fr.Translation ModelName/Samsung ML-1670 Series: ""
+*fr.Translation InstallableOptions/Options installées: ""
+*fr.Translation AltitudeOption/Ajustement altitude: ""
+*fr.AltitudeOption Normal/Normale: ""
+*fr.AltitudeOption High1/Élevé 1: ""
+*fr.AltitudeOption High2/Élevé 2: ""
+*fr.AltitudeOption High3/Élevé 3: ""
+*fr.Translation TonerSaving/Économie de toner: ""
+*fr.TonerSaving PrinterSetting/Configuration imprimante: ""
+*fr.TonerSaving On/Activé: ""
+*fr.TonerSaving Off/Désactivé: ""
+*fr.Translation General/General: ""
+*fr.Translation PowerSave/Économie d'énergie: ""
+*fr.PowerSave Off/Désactivé: ""
+*fr.PowerSave On/Activé: ""
+*fr.Translation PowerSaveTime/Délai mise en veille: ""
+*fr.PowerSaveTime 1min/1 minutes: ""
+*fr.PowerSaveTime 5min/5 minutes: ""
+*fr.PowerSaveTime 10min/10 minutes: ""
+*fr.PowerSaveTime 15min/15 minutes: ""
+*fr.PowerSaveTime 20min/20 minutes: ""
+*fr.PowerSaveTime 30min/30 minutes: ""
+*fr.PowerSaveTime 45min/45 minutes: ""
+*fr.PowerSaveTime 60min/60 minutes: ""
+*fr.PowerSaveTime 120min/120 minutes: ""
+*fr.Translation Darkness/Obscurité: ""
+*fr.Darkness Normal/Normale: ""
+*fr.Darkness Light/Clair: ""
+*fr.Darkness Dark/Foncé: ""
+*fr.Translation PageSize/Page Size: ""
+*fr.PageSize Letter/Lettre: ""
+*fr.PageSize Legal/Légal: ""
+*fr.PageSize Executive/Exécutif: ""
+*fr.PageSize A4/A4: ""
+*fr.PageSize A5/A5: ""
+*fr.PageSize B5-JIS/B5 JIS: ""
+*fr.PageSize US-Folio/Folio: ""
+*fr.PageSize Env10/Env. No.10: ""
+*fr.PageSize EnvDL/Env. DL: ""
+*fr.PageSize EnvC5/Env. C5: ""
+*fr.PageSize B5-ISO/B5 ISO: ""
+*fr.PageSize EnvMonarch/Env. Monarch: ""
+*fr.PageSize Oficio/Oficio: ""
+*fr.PageSize Custom/Custom: ""
+*fr.Translation PageRegion/PageRegion: ""
+*fr.PageRegion Letter/Letter: ""
+*fr.PageRegion Legal/Legal: ""
+*fr.PageRegion Executive/Executive: ""
+*fr.PageRegion A4/A4: ""
+*fr.PageRegion A5/A5: ""
+*fr.PageRegion B5-JIS/JIS B5: ""
+*fr.PageRegion US-Folio/US Folio: ""
+*fr.PageRegion Env10/No. 10 Env.: ""
+*fr.PageRegion EnvDL/DL Env.: ""
+*fr.PageRegion EnvC5/C5 Env.: ""
+*fr.PageRegion B5-ISO/ISO B5: ""
+*fr.PageRegion EnvMonarch/Monarch Env.: ""
+*fr.PageRegion Oficio/Oficio: ""
+*fr.PageRegion Custom/Custom: ""
+*fr.Translation InputSlot/Alimentation papier: ""
+*fr.InputSlot Auto/Sélection automatique de l'imprimante: ""
+*fr.InputSlot Manual/Chargeur manuel: ""
+*fr.Translation MediaType/Type de papier: ""
+*fr.MediaType Default/Imprimante par défaut: ""
+*fr.MediaType Plain/Papier ordinaire: ""
+*fr.MediaType Thick/Papier épais: ""
+*fr.MediaType Thin/Papier fin: ""
+*fr.MediaType Bond/Papier de luxe: ""
+*fr.MediaType Colored/Papier couleur: ""
+*fr.MediaType Card/Papier cartonné: ""
+*fr.MediaType Label/Étiquettes: ""
+*fr.MediaType Transparency/Transparent: ""
+*fr.MediaType Envelope/Enveloppe: ""
+*fr.MediaType Preprinted/Pré-imprimé: ""
+*fr.MediaType Recycled/Papier recyclé: ""
+*fr.MediaType Cotton/Papier en coton: ""
+*fr.MediaType Archive/Papier archive: ""
+*fr.Translation SECResolution/Qualité: ""
+*fr.SECResolution Best/Optimale: ""
+*fr.SECResolution Normal/Normale: ""
+*fr.Translation ColorModel/Mode Couleur: ""
+*fr.ColorModel Gray/Échelle de gris: ""
+*fr.Translation id_FineEdge/Bord fin: ""
+*fr.id_FineEdge On/Activé: ""
+*fr.id_FineEdge Off/Désactivé: ""
+*% German localization
+*de.Translation ModelName/Samsung ML-1670 Series: ""
+*de.Translation InstallableOptions/Installierte Optionen: ""
+*de.Translation AltitudeOption/Höhenkorrektur: ""
+*de.AltitudeOption Normal/Normal: ""
+*de.AltitudeOption High1/Hoch 1: ""
+*de.AltitudeOption High2/Hoch 2: ""
+*de.AltitudeOption High3/Hoch 3: ""
+*de.Translation TonerSaving/Toner-Sparbetrieb: ""
+*de.TonerSaving PrinterSetting/Druckereinstellung: ""
+*de.TonerSaving On/Ein: ""
+*de.TonerSaving Off/Aus: ""
+*de.Translation General/General: ""
+*de.Translation PowerSave/Stromsparmodus: ""
+*de.PowerSave Off/Aus: ""
+*de.PowerSave On/Ein: ""
+*de.Translation PowerSaveTime/Verzögerungszeit: ""
+*de.PowerSaveTime 1min/1 Minuten: ""
+*de.PowerSaveTime 5min/5 Minuten: ""
+*de.PowerSaveTime 10min/10 Minuten: ""
+*de.PowerSaveTime 15min/15 Minuten: ""
+*de.PowerSaveTime 20min/20 Minuten: ""
+*de.PowerSaveTime 30min/30 Minuten: ""
+*de.PowerSaveTime 45min/45 Minuten: ""
+*de.PowerSaveTime 60min/60 Minuten: ""
+*de.PowerSaveTime 120min/120 Minuten: ""
+*de.Translation Darkness/Helligkeit: ""
+*de.Darkness Normal/Normal: ""
+*de.Darkness Light/Hell: ""
+*de.Darkness Dark/Dunkel: ""
+*de.Translation PageSize/Page Size: ""
+*de.PageSize Letter/US-Letter: ""
+*de.PageSize Legal/US-Legal: ""
+*de.PageSize Executive/US-Executive: ""
+*de.PageSize A4/A4: ""
+*de.PageSize A5/A5: ""
+*de.PageSize B5-JIS/JIS B5: ""
+*de.PageSize US-Folio/US-Folio: ""
+*de.PageSize Env10/No.10 Umschlag: ""
+*de.PageSize EnvDL/DL Umschlag: ""
+*de.PageSize EnvC5/C5 Umschlag: ""
+*de.PageSize B5-ISO/ISO B5: ""
+*de.PageSize EnvMonarch/Umschlag Monarch: ""
+*de.PageSize Oficio/Oficio: ""
+*de.PageSize Custom/Custom: ""
+*de.Translation PageRegion/PageRegion: ""
+*de.PageRegion Letter/Letter: ""
+*de.PageRegion Legal/Legal: ""
+*de.PageRegion Executive/Executive: ""
+*de.PageRegion A4/A4: ""
+*de.PageRegion A5/A5: ""
+*de.PageRegion B5-JIS/JIS B5: ""
+*de.PageRegion US-Folio/US Folio: ""
+*de.PageRegion Env10/No. 10 Env.: ""
+*de.PageRegion EnvDL/DL Env.: ""
+*de.PageRegion EnvC5/C5 Env.: ""
+*de.PageRegion B5-ISO/ISO B5: ""
+*de.PageRegion EnvMonarch/Monarch Env.: ""
+*de.PageRegion Oficio/Oficio: ""
+*de.PageRegion Custom/Custom: ""
+*de.Translation InputSlot/Papierzufuhr: ""
+*de.InputSlot Auto/Automatische Druckerauswahl: ""
+*de.InputSlot Manual/Manueller Einzug: ""
+*de.Translation MediaType/Papiertyp: ""
+*de.MediaType Default/Druckervorgabe: ""
+*de.MediaType Plain/Normalpapier: ""
+*de.MediaType Thick/Dickes Papier: ""
+*de.MediaType Thin/Dünnes Papier: ""
+*de.MediaType Bond/Bankpost-Papier: ""
+*de.MediaType Colored/Farbpapier: ""
+*de.MediaType Card/Karten: ""
+*de.MediaType Label/Etiketten: ""
+*de.MediaType Transparency/Folien: ""
+*de.MediaType Envelope/Umschläge: ""
+*de.MediaType Preprinted/Formulare: ""
+*de.MediaType Recycled/Recycling-Papier: ""
+*de.MediaType Cotton/Baumwollpapier: ""
+*de.MediaType Archive/Archivpapier: ""
+*de.Translation SECResolution/Qualität: ""
+*de.SECResolution Best/Beste: ""
+*de.SECResolution Normal/Normal: ""
+*de.Translation ColorModel/Farbmodus: ""
+*de.ColorModel Gray/Graustufen: ""
+*de.Translation id_FineEdge/Feine Konturen: ""
+*de.id_FineEdge On/Ein: ""
+*de.id_FineEdge Off/Aus: ""
+*% Portuguese localization
+*pt.Translation ModelName/Samsung ML-1670 Series: ""
+*pt.Translation InstallableOptions/Opções instaladas: ""
+*pt.Translation AltitudeOption/Ajuste de altitude: ""
+*pt.AltitudeOption Normal/Normal: ""
+*pt.AltitudeOption High1/Alta 1: ""
+*pt.AltitudeOption High2/Alta 2: ""
+*pt.AltitudeOption High3/Alta 3: ""
+*pt.Translation TonerSaving/Economia de Tóner: ""
+*pt.TonerSaving PrinterSetting/Definição da Impressora: ""
+*pt.TonerSaving On/Ligado: ""
+*pt.TonerSaving Off/Desligado: ""
+*pt.Translation General/General: ""
+*pt.Translation PowerSave/Economia de Energia: ""
+*pt.PowerSave Off/Desligado: ""
+*pt.PowerSave On/Ligado: ""
+*pt.Translation PowerSaveTime/Tempo Diferido: ""
+*pt.PowerSaveTime 1min/1 minutos: ""
+*pt.PowerSaveTime 5min/5 minutos: ""
+*pt.PowerSaveTime 10min/10 minutos: ""
+*pt.PowerSaveTime 15min/15 minutos: ""
+*pt.PowerSaveTime 20min/20 minutos: ""
+*pt.PowerSaveTime 30min/30 minutos: ""
+*pt.PowerSaveTime 45min/45 minutos: ""
+*pt.PowerSaveTime 60min/60 minutos: ""
+*pt.PowerSaveTime 120min/120 minutos: ""
+*pt.Translation Darkness/Luminosidade: ""
+*pt.Darkness Normal/Normal: ""
+*pt.Darkness Light/Claro: ""
+*pt.Darkness Dark/Escuro: ""
+*pt.Translation PageSize/Page Size: ""
+*pt.PageSize Letter/Carta: ""
+*pt.PageSize Legal/Legal: ""
+*pt.PageSize Executive/Executivo: ""
+*pt.PageSize A4/A4: ""
+*pt.PageSize A5/A5: ""
+*pt.PageSize B5-JIS/JIS B5: ""
+*pt.PageSize US-Folio/US Folio: ""
+*pt.PageSize Env10/Env. No.10: ""
+*pt.PageSize EnvDL/Env. DL: ""
+*pt.PageSize EnvC5/Env. C5: ""
+*pt.PageSize B5-ISO/ISO B5: ""
+*pt.PageSize EnvMonarch/Env. Monarch: ""
+*pt.PageSize Oficio/Ofício: ""
+*pt.PageSize Custom/Custom: ""
+*pt.Translation PageRegion/PageRegion: ""
+*pt.PageRegion Letter/Letter: ""
+*pt.PageRegion Legal/Legal: ""
+*pt.PageRegion Executive/Executive: ""
+*pt.PageRegion A4/A4: ""
+*pt.PageRegion A5/A5: ""
+*pt.PageRegion B5-JIS/JIS B5: ""
+*pt.PageRegion US-Folio/US Folio: ""
+*pt.PageRegion Env10/No. 10 Env.: ""
+*pt.PageRegion EnvDL/DL Env.: ""
+*pt.PageRegion EnvC5/C5 Env.: ""
+*pt.PageRegion B5-ISO/ISO B5: ""
+*pt.PageRegion EnvMonarch/Monarch Env.: ""
+*pt.PageRegion Oficio/Oficio: ""
+*pt.PageRegion Custom/Custom: ""
+*pt.Translation InputSlot/Origem do Papel: ""
+*pt.InputSlot Auto/Selecção automática da impressora: ""
+*pt.InputSlot Manual/Alimentação manual: ""
+*pt.Translation MediaType/Tipo de Papel: ""
+*pt.MediaType Default/Predefinição da Impressora: ""
+*pt.MediaType Plain/Papel comum: ""
+*pt.MediaType Thick/Grosso: ""
+*pt.MediaType Thin/Fino: ""
+*pt.MediaType Bond/Papel vegetal: ""
+*pt.MediaType Colored/Papel colorido: ""
+*pt.MediaType Card/Cartolina: ""
+*pt.MediaType Label/Etiquetas: ""
+*pt.MediaType Transparency/Transparência: ""
+*pt.MediaType Envelope/Envelope: ""
+*pt.MediaType Preprinted/Pré-impresso: ""
+*pt.MediaType Recycled/Papel reciclado: ""
+*pt.MediaType Cotton/Algodão: ""
+*pt.MediaType Archive/Papel de arquivo: ""
+*pt.Translation SECResolution/Qualidade: ""
+*pt.SECResolution Best/Melhor: ""
+*pt.SECResolution Normal/Normal: ""
+*pt.Translation ColorModel/Modo de Cor: ""
+*pt.ColorModel Gray/Escala de Cinzentos: ""
+*pt.Translation id_FineEdge/Contorno definido: ""
+*pt.id_FineEdge On/Ligado: ""
+*pt.id_FineEdge Off/Desligado: ""
+*% Korean localization
+*ko.Translation ModelName/Samsung ML-1670 Series: ""
+*ko.Translation InstallableOptions/설치할 수 있는 옵션: ""
+*ko.Translation AltitudeOption/고도 설정: ""
+*ko.AltitudeOption Normal/표준: ""
+*ko.AltitudeOption High1/고도 1: ""
+*ko.AltitudeOption High2/고도 2: ""
+*ko.AltitudeOption High3/고도 3: ""
+*ko.Translation TonerSaving/토너 절약: ""
+*ko.TonerSaving PrinterSetting/프린터 설정값: ""
+*ko.TonerSaving On/사용: ""
+*ko.TonerSaving Off/사용안함: ""
+*ko.Translation General/General: ""
+*ko.Translation PowerSave/절전모드: ""
+*ko.PowerSave Off/사용안함: ""
+*ko.PowerSave On/사용: ""
+*ko.Translation PowerSaveTime/시간설정: ""
+*ko.PowerSaveTime 1min/1 분: ""
+*ko.PowerSaveTime 5min/5 분: ""
+*ko.PowerSaveTime 10min/10 분: ""
+*ko.PowerSaveTime 15min/15 분: ""
+*ko.PowerSaveTime 20min/20 분: ""
+*ko.PowerSaveTime 30min/30 분: ""
+*ko.PowerSaveTime 45min/45 분: ""
+*ko.PowerSaveTime 60min/60 분: ""
+*ko.PowerSaveTime 120min/120 분: ""
+*ko.Translation Darkness/명도: ""
+*ko.Darkness Normal/표준: ""
+*ko.Darkness Light/밝게: ""
+*ko.Darkness Dark/어둡게: ""
+*ko.Translation PageSize/Page Size: ""
+*ko.PageSize Letter/Letter: ""
+*ko.PageSize Legal/Legal: ""
+*ko.PageSize Executive/Executive: ""
+*ko.PageSize A4/A4: ""
+*ko.PageSize A5/A5: ""
+*ko.PageSize B5-JIS/JIS B5: ""
+*ko.PageSize US-Folio/US Folio: ""
+*ko.PageSize Env10/No.10 봉투: ""
+*ko.PageSize EnvDL/DL 봉투: ""
+*ko.PageSize EnvC5/C5 봉투: ""
+*ko.PageSize B5-ISO/ISO B5: ""
+*ko.PageSize EnvMonarch/Monarch 봉투: ""
+*ko.PageSize Oficio/Oficio: ""
+*ko.PageSize Custom/Custom: ""
+*ko.Translation PageRegion/PageRegion: ""
+*ko.PageRegion Letter/Letter: ""
+*ko.PageRegion Legal/Legal: ""
+*ko.PageRegion Executive/Executive: ""
+*ko.PageRegion A4/A4: ""
+*ko.PageRegion A5/A5: ""
+*ko.PageRegion B5-JIS/JIS B5: ""
+*ko.PageRegion US-Folio/US Folio: ""
+*ko.PageRegion Env10/No. 10 Env.: ""
+*ko.PageRegion EnvDL/DL Env.: ""
+*ko.PageRegion EnvC5/C5 Env.: ""
+*ko.PageRegion B5-ISO/ISO B5: ""
+*ko.PageRegion EnvMonarch/Monarch Env.: ""
+*ko.PageRegion Oficio/Oficio: ""
+*ko.PageRegion Custom/Custom: ""
+*ko.Translation InputSlot/용지 공급원: ""
+*ko.InputSlot Auto/프린터 자동 선택: ""
+*ko.InputSlot Manual/수동 급지: ""
+*ko.Translation MediaType/용지 종류: ""
+*ko.MediaType Default/프린터 기본값: ""
+*ko.MediaType Plain/일반 용지: ""
+*ko.MediaType Thick/두꺼운 용지: ""
+*ko.MediaType Thin/얇은 용지: ""
+*ko.MediaType Bond/본드 용지: ""
+*ko.MediaType Colored/색지: ""
+*ko.MediaType Card/카드 용지: ""
+*ko.MediaType Label/라벨 용지: ""
+*ko.MediaType Transparency/투명 필름(OHP): ""
+*ko.MediaType Envelope/봉투: ""
+*ko.MediaType Preprinted/인쇄된 용지: ""
+*ko.MediaType Recycled/재생 용지: ""
+*ko.MediaType Cotton/코튼 용지: ""
+*ko.MediaType Archive/Archive 용지: ""
+*ko.Translation SECResolution/인쇄 품질: ""
+*ko.SECResolution Best/고품질: ""
+*ko.SECResolution Normal/표준: ""
+*ko.Translation ColorModel/색상 설정: ""
+*ko.ColorModel Gray/흑백: ""
+*ko.Translation id_FineEdge/모서리 향상: ""
+*ko.id_FineEdge On/사용: ""
+*ko.id_FineEdge Off/사용안함: ""
+*% Simplified Chinese localization
+*zh_CN.Translation ModelName/Samsung ML-1670 Series: ""
+*zh_CN.Translation InstallableOptions/已安装选件: ""
+*zh_CN.Translation AltitudeOption/海跋调整: ""
+*zh_CN.AltitudeOption Normal/正常: ""
+*zh_CN.AltitudeOption High1/高 1: ""
+*zh_CN.AltitudeOption High2/高 2: ""
+*zh_CN.AltitudeOption High3/高 3: ""
+*zh_CN.Translation TonerSaving/省墨: ""
+*zh_CN.TonerSaving PrinterSetting/打印机设置: ""
+*zh_CN.TonerSaving On/开: ""
+*zh_CN.TonerSaving Off/关: ""
+*zh_CN.Translation General/General: ""
+*zh_CN.Translation PowerSave/节能: ""
+*zh_CN.PowerSave Off/关: ""
+*zh_CN.PowerSave On/开: ""
+*zh_CN.Translation PowerSaveTime/时间延迟: ""
+*zh_CN.PowerSaveTime 1min/1 分钟: ""
+*zh_CN.PowerSaveTime 5min/5 分钟: ""
+*zh_CN.PowerSaveTime 10min/10 分钟: ""
+*zh_CN.PowerSaveTime 15min/15 分钟: ""
+*zh_CN.PowerSaveTime 20min/20 分钟: ""
+*zh_CN.PowerSaveTime 30min/30 分钟: ""
+*zh_CN.PowerSaveTime 45min/45 分钟: ""
+*zh_CN.PowerSaveTime 60min/60 分钟: ""
+*zh_CN.PowerSaveTime 120min/120 分钟: ""
+*zh_CN.Translation Darkness/暗度: ""
+*zh_CN.Darkness Normal/正常: ""
+*zh_CN.Darkness Light/亮: ""
+*zh_CN.Darkness Dark/深: ""
+*zh_CN.Translation PageSize/Page Size: ""
+*zh_CN.PageSize Letter/Letter: ""
+*zh_CN.PageSize Legal/Legal: ""
+*zh_CN.PageSize Executive/Executive: ""
+*zh_CN.PageSize A4/A4: ""
+*zh_CN.PageSize A5/A5: ""
+*zh_CN.PageSize B5-JIS/JIS B5: ""
+*zh_CN.PageSize US-Folio/US Folio: ""
+*zh_CN.PageSize Env10/No.10 Env.: ""
+*zh_CN.PageSize EnvDL/DL Env.: ""
+*zh_CN.PageSize EnvC5/C5 Env.: ""
+*zh_CN.PageSize B5-ISO/ISO B5: ""
+*zh_CN.PageSize EnvMonarch/Monarch Env.: ""
+*zh_CN.PageSize Oficio/Oficio: ""
+*zh_CN.PageSize Custom/Custom: ""
+*zh_CN.Translation PageRegion/PageRegion: ""
+*zh_CN.PageRegion Letter/Letter: ""
+*zh_CN.PageRegion Legal/Legal: ""
+*zh_CN.PageRegion Executive/Executive: ""
+*zh_CN.PageRegion A4/A4: ""
+*zh_CN.PageRegion A5/A5: ""
+*zh_CN.PageRegion B5-JIS/JIS B5: ""
+*zh_CN.PageRegion US-Folio/US Folio: ""
+*zh_CN.PageRegion Env10/No. 10 Env.: ""
+*zh_CN.PageRegion EnvDL/DL Env.: ""
+*zh_CN.PageRegion EnvC5/C5 Env.: ""
+*zh_CN.PageRegion B5-ISO/ISO B5: ""
+*zh_CN.PageRegion EnvMonarch/Monarch Env.: ""
+*zh_CN.PageRegion Oficio/Oficio: ""
+*zh_CN.PageRegion Custom/Custom: ""
+*zh_CN.Translation InputSlot/纸张来源: ""
+*zh_CN.InputSlot Auto/打印机自动选择: ""
+*zh_CN.InputSlot Manual/手动进纸器: ""
+*zh_CN.Translation MediaType/纸张类型: ""
+*zh_CN.MediaType Default/打印机默认值: ""
+*zh_CN.MediaType Plain/普通纸: ""
+*zh_CN.MediaType Thick/厚纸: ""
+*zh_CN.MediaType Thin/薄纸: ""
+*zh_CN.MediaType Bond/Bond 纸: ""
+*zh_CN.MediaType Colored/彩色纸: ""
+*zh_CN.MediaType Card/卡片纸: ""
+*zh_CN.MediaType Label/标签: ""
+*zh_CN.MediaType Transparency/透明胶片: ""
+*zh_CN.MediaType Envelope/信封: ""
+*zh_CN.MediaType Preprinted/预印纸: ""
+*zh_CN.MediaType Recycled/再生纸: ""
+*zh_CN.MediaType Cotton/棉质纸: ""
+*zh_CN.MediaType Archive/存档纸: ""
+*zh_CN.Translation SECResolution/质量: ""
+*zh_CN.SECResolution Best/最佳: ""
+*zh_CN.SECResolution Normal/正常: ""
+*zh_CN.Translation ColorModel/彩色模式: ""
+*zh_CN.ColorModel Gray/灰阶: ""
+*zh_CN.Translation id_FineEdge/精细边缘: ""
+*zh_CN.id_FineEdge On/开: ""
+*zh_CN.id_FineEdge Off/关: ""
+*% Traditional Chinese localization
+*zh_TW.Translation ModelName/Samsung ML-1670 Series: ""
+*zh_TW.Translation InstallableOptions/已安裝選項: ""
+*zh_TW.Translation AltitudeOption/高度調整: ""
+*zh_TW.AltitudeOption Normal/正常: ""
+*zh_TW.AltitudeOption High1/高 1: ""
+*zh_TW.AltitudeOption High2/高 2: ""
+*zh_TW.AltitudeOption High3/高 3: ""
+*zh_TW.Translation TonerSaving/碳粉節省: ""
+*zh_TW.TonerSaving PrinterSetting/印表機設定: ""
+*zh_TW.TonerSaving On/開啟: ""
+*zh_TW.TonerSaving Off/關閉: ""
+*zh_TW.Translation General/General: ""
+*zh_TW.Translation PowerSave/省電: ""
+*zh_TW.PowerSave Off/關閉: ""
+*zh_TW.PowerSave On/開啟: ""
+*zh_TW.Translation PowerSaveTime/時間延遲: ""
+*zh_TW.PowerSaveTime 1min/1 分鐘: ""
+*zh_TW.PowerSaveTime 5min/5 分鐘: ""
+*zh_TW.PowerSaveTime 10min/10 分鐘: ""
+*zh_TW.PowerSaveTime 15min/15 分鐘: ""
+*zh_TW.PowerSaveTime 20min/20 分鐘: ""
+*zh_TW.PowerSaveTime 30min/30 分鐘: ""
+*zh_TW.PowerSaveTime 45min/45 分鐘: ""
+*zh_TW.PowerSaveTime 60min/60 分鐘: ""
+*zh_TW.PowerSaveTime 120min/120 分鐘: ""
+*zh_TW.Translation Darkness/濃度: ""
+*zh_TW.Darkness Normal/正常: ""
+*zh_TW.Darkness Light/淺: ""
+*zh_TW.Darkness Dark/深: ""
+*zh_TW.Translation PageSize/Page Size: ""
+*zh_TW.PageSize Letter/Letter: ""
+*zh_TW.PageSize Legal/Legal: ""
+*zh_TW.PageSize Executive/Executive: ""
+*zh_TW.PageSize A4/A4: ""
+*zh_TW.PageSize A5/A5: ""
+*zh_TW.PageSize B5-JIS/JIS B5: ""
+*zh_TW.PageSize US-Folio/US Folio: ""
+*zh_TW.PageSize Env10/10 號信封: ""
+*zh_TW.PageSize EnvDL/DL信封: ""
+*zh_TW.PageSize EnvC5/C5 信封: ""
+*zh_TW.PageSize B5-ISO/ISO B5: ""
+*zh_TW.PageSize EnvMonarch/Monarch 信封: ""
+*zh_TW.PageSize Oficio/Oficio: ""
+*zh_TW.PageSize Custom/Custom: ""
+*zh_TW.Translation PageRegion/PageRegion: ""
+*zh_TW.PageRegion Letter/Letter: ""
+*zh_TW.PageRegion Legal/Legal: ""
+*zh_TW.PageRegion Executive/Executive: ""
+*zh_TW.PageRegion A4/A4: ""
+*zh_TW.PageRegion A5/A5: ""
+*zh_TW.PageRegion B5-JIS/JIS B5: ""
+*zh_TW.PageRegion US-Folio/US Folio: ""
+*zh_TW.PageRegion Env10/No. 10 Env.: ""
+*zh_TW.PageRegion EnvDL/DL Env.: ""
+*zh_TW.PageRegion EnvC5/C5 Env.: ""
+*zh_TW.PageRegion B5-ISO/ISO B5: ""
+*zh_TW.PageRegion EnvMonarch/Monarch Env.: ""
+*zh_TW.PageRegion Oficio/Oficio: ""
+*zh_TW.PageRegion Custom/Custom: ""
+*zh_TW.Translation InputSlot/紙張來源: ""
+*zh_TW.InputSlot Auto/印表機自動選擇: ""
+*zh_TW.InputSlot Manual/手動送紙: ""
+*zh_TW.Translation MediaType/紙張類型: ""
+*zh_TW.MediaType Default/印表機預設值: ""
+*zh_TW.MediaType Plain/一般紙張: ""
+*zh_TW.MediaType Thick/厚紙: ""
+*zh_TW.MediaType Thin/薄紙: ""
+*zh_TW.MediaType Bond/銅版紙: ""
+*zh_TW.MediaType Colored/色紙: ""
+*zh_TW.MediaType Card/卡片紙: ""
+*zh_TW.MediaType Label/標籤: ""
+*zh_TW.MediaType Transparency/投影片: ""
+*zh_TW.MediaType Envelope/信封: ""
+*zh_TW.MediaType Preprinted/預列印本: ""
+*zh_TW.MediaType Recycled/再生紙: ""
+*zh_TW.MediaType Cotton/棉質: ""
+*zh_TW.MediaType Archive/資料庫: ""
+*zh_TW.Translation SECResolution/品質: ""
+*zh_TW.SECResolution Best/最佳: ""
+*zh_TW.SECResolution Normal/正常: ""
+*zh_TW.Translation ColorModel/彩色模式: ""
+*zh_TW.ColorModel Gray/灰階: ""
+*zh_TW.Translation id_FineEdge/精細邊緣: ""
+*zh_TW.id_FineEdge On/開啟: ""
+*zh_TW.id_FineEdge Off/關閉: ""
+*cupsLanguages: "es it nl fr de pt ko zh_CN zh_TW"
